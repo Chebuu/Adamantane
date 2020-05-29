@@ -31,7 +31,7 @@ select
     case when c.itemid in (454,223901) then 1 else 0 end as GCSMoto,
     case when c.itemid in (184,220739) then 1 else 0 end as GCSEyes,
     case when c.itemid in (723, 223900) and c.VALUE in ('1.0 ET/Trach', 'No Response-ETT') then 1 else 0 end as ETTFlag
-  from mimiciii.CHARTEVENTS c 
+  from chartevents c 
   where 
     c.itemid in (184, 454, 723, 223900, 223901, 220739) and
     c.valuenum is not NULL

@@ -1,0 +1,29 @@
+-- -- MEMANTINE:
+-- acetazolamide
+-- aluminum hydroxide
+-- amantadine
+-- amiodarone
+-- calcium carbonate
+-- cimetidine
+-- digoxin
+-- dofetilide
+-- procainamide
+-- quinidine
+-- ranitidine
+-- sodium bicarbonate
+-- sodium citrate/citric acid
+-- sodium lactate
+-- tenofovir DF
+-- vandetanib
+-- diltiazem
+-- hydrochlorothiazide
+-- metformin
+-- methyclothiazide
+-- midodrine
+-- ofloxacin
+-- pramipexole
+-- quinine
+-- sulfamethoxazole
+-- triamterene
+-- trimethoprim
+-- verapamil

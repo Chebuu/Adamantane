@@ -1,0 +1,50 @@
+-- -- D_ITEMS.CATEGORY
+-- "Quick Admit"
+-- "Case Management"
+-- "Adm History/FHPA"
+
+
+-- -- Supplementary Classification Of Factors Influencing Health Status And Contact With Health Services V01-V91
+-- V01-V09  Persons With Potential Health Hazards Related To Communicable Diseases
+-- V10-V19  Persons With Potential Health Hazards Related To Personal And Family History
+-- V20-V29  Persons Encountering Health Services In Circumstances Related To Reproduction And Development
+-- V30-V39  Liveborn Infants According To Type Of Birth
+-- V40-V49  Persons With A Condition Influencing Their Health Status
+-- V50-V59  Persons Encountering Health Services For Specific Procedures And Aftercare
+-- V60-V69  Persons Encountering Health Services In Other Circumstances
+-- V70-V82  Persons Without Reported Diagnosis Encountered During Examination And Investigation Of Individuals And Populations
+-- V83-V84  Genetics
+-- V85-V85  Body Mass Index
+-- V86-V86  Estrogen Receptor Status
+-- V87-V87  Other Specified Personal Exposures And History Presenting Hazards To Health
+-- V88-V88  Acquired Absence Of Other Organs And Tissue
+-- V89-V89  Other Suspected Conditions Not Found
+-- V90-V90  Retained Foreign Body
+-- V91-V91  Multiple Gestation Placenta Status
+
+-- -- Supplementary Classification Of External Causes Of Injury And Poisoning E000-E999
+-- E000-E000  External Cause Status
+-- E001-E030  Activity
+-- E800-E807  Railway Accidents
+-- E810-E819  Motor Vehicle Traffic Accidents
+-- E820-E825  Motor Vehicle Nontraffic Accidents
+-- E826-E829  Other Road Vehicle Accidents
+-- E830-E838  Water Transport Accidents
+-- E840-E845  Air And Space Transport Accidents
+-- E846-E849  Vehicle Accidents, Not Elsewhere Classifiable
+-- E850-E858  Accidental Poisoning By Drugs, Medicinal Substances, And Biologicals
+-- E860-E869  Accidental Poisoning By Other Solid And Liquid Substances, Gases, And Vapors
+-- E870-E876  Misadventures To Patients During Surgical And Medical Care
+-- E878-E879  Surgical And Medical Procedures As The Cause Of Abnormal Reaction Of Patient Or Later Complication, Without Mention Of Misadventure At The Time Of Procedure
+-- E880-E888  Accidental Falls
+-- E890-E899  Accidents Caused By Fire And Flames
+-- E900-E909  Accidents Due To Natural And Environmental Factors
+-- E910-E915  Accidents Caused By Submersion, Suffocation, And Foreign Bodies
+-- E916-E928  Other Accidents
+-- E929-E929  Late Effects Of Accidental Injury
+-- E930-E949  Drugs, Medicinal And Biological Substances Causing Adverse Effects In Therapeutic Use
+-- E950-E959  Suicide And Self-Inflicted Injury
+-- E960-E969  Homicide And Injury Purposely Inflicted By Other Persons
+-- E970-E979  Legal Intervention
+-- E980-E989  Injury Undetermined Whether Accidentally Or Purposely Inflicted
+-- E990-E999  Injury Resulting From Operations Of War

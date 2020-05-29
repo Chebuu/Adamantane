@@ -1,0 +1,96 @@
+-- NOTEEVENTS
+-- CATEGORY         DESCRIPTION
+-- "Radiology"      "ED CODE STROKE ONLY CT"
+-- "Radiology"      "ED STROKE CTA HEAD & NECK WITH PERFUSION"
+-- "Radiology"      "ED STROKE HEAD CT W/O CONTRAST"
+-- "Radiology"      "CT EMERGENCY HEAD W/O CONTRAST"
+-- "Radiology"      "CT BRAIN PERFUSION"
+-- "Radiology"      "CT HEAD W/ & W/O CONTRAST"
+-- "Radiology"      "CT HEAD W/ ANESTHESIA W/ CONTRAST"
+-- "Radiology"      "CT HEAD W/ ANESTHESIA W/O CONTRAST"
+-- "Radiology"      "CT HEAD W/ CONTRAST"
+-- "Radiology"      "CT HEAD W/O CONTRAST"
+-- "Radiology"      "CT C-SPINE W/CONTRAST"
+-- "Radiology"      "CT C-SPINE W/O CONTRAST"
+-- "Radiology"      "CT STEREOTAXIS NEURO W/ CONTRAST"
+-- "Radiology"      "CT STEREOTAXIS NEURO W/O C"
+-- "Radiology"      "CTA HEAD W&W/O C & RECONS"
+-- "Radiology"      "CERVICOCERBRAL"
+-- "Radiology"      "CERVICOCEREBRAL A-GRAM"
+-- ... ...
+-- "Radiology"      "PORTABLE HEAD CT W/O CONTRAST"
+-- ... ...
+-- "Radiology"      "MRI & MRA BRAIN, W/O CONTRAST"
+-- "Radiology"      "MRA BRAIN W&W/O CONTRAST"
+-- "Radiology"      "MRA BRAIN W/CONTRAST"
+-- "Radiology"      "MRA BRAIN W/O CONTRAST"
+-- "Radiology"      "MR HEAD & NECK ANGIO"
+-- "Radiology"      "MR HEAD NEURO"
+-- "Radiology"      "MR HEAD W & W/O CONTRAST"
+-- "Radiology"      "MR HEAD W&W/OC FOR PTS W/ DBS"
+-- "Radiology"      "MR HEAD W/ CONTRAST"
+-- "Radiology"      "MR HEAD W/CNTRST&TUMOR VOLUMETRIC"
+-- "Radiology"      "MR HEAD W/O CONTRAST"
+-- "Radiology"      "MR-ANGIO HEAD"
+-- "Radiology"      "MR-ANGIO HEAD W & W/O CONTRAST"
+-- "Radiology"      "MR-ANGIO HEAD W/ CONTRAST"
+-- "Radiology"      "MR-ANGIO HEAD W/OUT CONTRAST"
+-- "Radiology"      "MRV HEAD W/O CONTRAST"
+-- "Radiology"      "MRV NECK W/O CONTRAST"
+-- ... ...
+-- "Radiology"      "VERT/CAROTID A-GRAM"	
+-- "Radiology"      "R 75676 ANGIO CAROTID, CERVICAL UNILAT S&I RIGHT"
+-- ... ...
+-- "Radiology"      "EMBO INTRACRANIAL/SPINAL CORD"	
+-- "Radiology"      "EMBO NON NEURO"	
+-- "Radiology"      "EMBO TRANSCRANIAL"	
+-- ... ...
+-- "Radiology"      "TRANCATHETER EMBOLIZATION"
+-- "Radiology"      "TRANSCATH EMBO"
+-- "Radiology"      "TRANSCATH EMBO THERAPY"
+-- ... ...
+-- "Radiology"      "F/U STATUS INFUSION/EMBO"
+-- "Radiology"      "F/U TRANS CATH THERAPY"
+-- ... ...
+-- "Radiology"      "THROMBOCTMY, PERC AVF"
+-- "Radiology"      "REPEAT PERC MECH THROMBECTOMY/LYTIC INJ, VENOUS"
+-- ... ...
+-- "Radiology"     "INTRO INTRAVASCULAR STENT"	
+-- ... ... 
+-- "Radiology"      "FDG BRAIN"	
+-- ... ...
+-- "Radiology"      "CISTERNOGRAM"
+-- "Radiology"      "CSF SHUNT STUDY"
+-- ... ...
+-- "Radiology"      "DECLOT W/THROMB AGNT IMPLT VAD/VAC"	
+-- "Radiology"      "DECLOT, THROM AG IMPLT VAS DEV"
+-- ... ...
+-- "Radiology"      "PO SKULL (AP, TOWNES & LAT) TRAUMA PORT IN O.R."
+-- ... ...
+-- "Radiology"      "PRIMARY MECH THROMBECTOMY ART/BPG; INITIAL VESSEL"
+-- "Radiology"      "PRIMARY MECH THROMBECTOMY, ARTERIAL/BPG, INITIAL"
+-- .. .. 
+-- "Radiology"      "DISCONTINUED PROCEDURE AFTER ANESTHESIA"
+
+
+-- "8702"	"Other contrast radiogram of brain and skull"
+-- ...      ...
+-- -- -- "8706"	  "Contrast radiogram of nasopharynx"
+-- -- -- "8714"	  "Contrast radiogram of orbit"
+-- -- -- "8715"	  "Contrast radiogram of sinus"
+-- ...      ...
+-- "8891"   "Magnetic resonance imaging of brain and brain stem"
+-- ...      ...
+-- "8716"	"Other x-ray of facial bones"
+-- "8717"	"Other x-ray of skull"
+-- "8722"	"Other x-ray of cervical spine"
+-- -- -- "8723"	"Other x-ray of thoracic spine"
+-- -- -- "8724"	"Other x-ray of lumbosacral spine"
+-- -- -- "8729"	"Other x-ray of spine"
+-- ...      ...
+
+
+with angio as (
+    
+   where icd9_code = '0031' -- D_ICD_PROCEDURES.LONG = "Computer assisted surgery with CTA"
+)

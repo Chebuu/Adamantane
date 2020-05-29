@@ -44,6 +44,13 @@ END AS thrombolytic
         -- -- 03.79 - Other shunt of spinal theca
         -- -- 03.97 - Revision of spinal thecal shunt
         -- -- 03.98 - Removal of spinal thecal shunt
+
+-- D_ICD_PROCEDURES
+-- ICD_CODE     LONG_TITLE
+-- "0202"      "Elevation of skull fracture fragments"
+-- "0231"      "Ventricular shunt to structure in head and neck"
+
+
 ,CASE
     WHEN dxicd.diagnoses_icd IN (
         3811 -- Endarterectomy, Intracranial Vessels

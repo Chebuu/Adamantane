@@ -1,3 +1,163 @@
+
+-- D_ITEMS
+-- ITEMID   LABEL
+-- 1963     "SITTER"
+-- 1964		"Camino Monitor"
+-- ... ...
+-- 1967		"insentive spir"
+-- ... ...
+
+-- D_ITEMS.CATEGORY
+-- "NG Feeding"
+-- "Nutrition - Parenteral"
+-- "Restraint/Support Systems"
+
+-- NOTEEVENTS
+-- CATEGORY             DESCRIPTION
+-- "Rehab Services"     "Communication Evaluation"
+-- ... ...
+-- "General"           "Speech & Swallow Consult; Bedside Swallow Eval"
+-- "General"           "Speech & Swallow Evaluation"
+-- "General"           "Speech & Swallowing Follow-Up Note"
+-- ... ...
+-- "Rehab Services"     "Swallow Consult"
+-- "Rehab Services"     "Swallow Evaluation"
+-- "Rehab Services"     "Swallow Follow Up"
+-- "Rehab Services"     "Swallow Re-Consult"
+-- "Rehab Services"     "Swallow Therapy"
+-- "Rehab Services"     "Swallowing Consult"
+-- "Rehab Services"     "Swallowing Follow Up"
+-- "Rehab Services"     "Swallowing Follow up"
+-- "Rehab Services"     "Swallowing Follow-Up"
+-- "Rehab Services"     "Swallowing Therapy"
+-- ... ...
+-- "Rehab Services"     "Speech + Swallow Consult"
+-- "Rehab Services"     "Speech Therapy"
+-- "Rehab Services"     "Speech Therapy # 2"
+-- "Rehab Services"     "Speech Therapy Follow Up"
+-- "Rehab Services"     "Speech Therapy Follow-Up"
+-- "Rehab Services"     "Speech and Language Evaluation"
+-- "Rehab Services"     "Speech and Language Therapy"
+-- "Rehab Services"     "Speech and Swallow Follow Up"
+-- "Rehab Services"     "Speech and Swallowing Follow-Up"
+-- "Rehab Services"     "Speech consult"
+-- "Rehab Services"     "Speech-Language Aphasia Evaluation"
+-- "Rehab Services"     "Speech-Language Evaluation"
+-- "Rehab Services"     "Speech/Swallow Follow Up"
+-- ... ...
+-- "Respiratory "       "Green Dye Bedside Swallowing Eval"
+-- ... ...
+-- "Rehab Services"     "PMV & Green Dye Swallow Evaluation"
+-- "Rehab Services"     "PMV & Swallow Evaluation"
+-- "Rehab Services"     "PMV & Swallow Follow Up"
+-- "Rehab Services"     "PMV & Swallowing Evaluations"
+-- "Rehab Services"     "PMV / Swallow Follow Up"
+-- "Rehab Services"     "PMV Consult"
+-- "Rehab Services"     "PMV Eval / Dispense"
+-- "Rehab Services"     "PMV Evaluation"
+-- "Rehab Services"     "PMV Evaluation & Dispense"
+-- "Rehab Services"     "PMV Evaluation / Dispense"
+-- "Rehab Services"     "PMV Evaluation / Swallowing Evaluation"
+-- "Rehab Services"     "PMV Evaluation /Swallowing Evaluation"
+-- "Rehab Services"     "PMV Evaluation and Dispense"
+-- "Rehab Services"     "PMV Evaluation and Green Dye Bedside Swallow Evalu"
+-- "Rehab Services"     "PMV Evaluation and Green-Dye Bedside Swallowing Ev"
+-- "Rehab Services"     "PMV Evaluation/ Dispense"
+-- "Rehab Services"     "PMV Evaluation/Dispense"
+-- "Rehab Services"     "PMV Evaluation/Dispense and Attempted Green-dye Be"
+-- "Rehab Services"     "PMV Evaluation/Dispense and Bedside Swallowing Eva"
+-- "Rehab Services"     "PMV Evaluation/Dispense and Green-Dye Bedside Swal"
+-- "Rehab Services"     "PMV Follow Up"
+-- "Rehab Services"     "PMV Follow-Up"
+-- "Rehab Services"     "PMV Speaking Evaluation"
+-- "Rehab Services"     "PMV Speaking Valve re-evaluation"
+-- "Rehab Services"     "PMV Trial"
+-- "Rehab Services"     "PMV and Green Dye Swallowing Evaluation"
+-- "Rehab Services"     "PMV and Swallow Follow-Up"
+-- "Rehab Services"     "PMV and Swallowing Follow-Up"
+-- "Rehab Services"     "PMV follow up/Swallow Consult"
+-- "Rehab Services"     "PMV/Swallow"
+-- ... ...
+-- "Rehab Services"     "REPEAT BEDSIDE SWALLOWING EVALUATION"
+-- "Rehab Services"     "Green Dye Bedside Swallow Evaluation"
+-- "Rehab Services"     "Green Dye Repeat Bedside Swallowing Evaluation"
+-- "Rehab Services"     "Green Dye Swallow Evaluation"
+-- "Rehab Services"     "Green Dye Swallowing Evaluation"
+-- "Rehab Services"     "Green-Dye Bedside Swallowing Evaluation"
+-- ... ...
+-- "Rehab Services"     "Repeat Bedside Swallow Evaluation"
+-- "Rehab Services"     "Repeat Bedside Swallow Study"
+-- "Rehab Services"     "Repeat Bedside Swallowing Evaluation"
+-- "Rehab Services"     "Repeat Bedside swallowing Evaluation"
+-- "Rehab Services"     "Repeat Green-Dye Bedside Swallowing Evaluation"
+-- "Rehab Services"     "Repeat PMV Evaluation"
+-- "Rehab Services"     "Repeat PMV Evaluation/Dispense"
+-- "Rehab Services"     "Repeat Swallowing Evaluation"
+-- ... ...
+-- "Rehab Services"     "Attempted Repeat Bedside Swallow Evaluation"
+-- "Rehab Services"     "Attempted Repeat Bedside Swallowing Evaluation"
+-- "Rehab Services"     "Attempted Swallowing Evaluation"
+-- "Rehab Services"     "Attempted Swallowing Follow-Up"
+-- "Rehab Services"     "Attempted Video Swallow"
+-- ... ...
+-- "Rehab Services"     "Deferred Bedside Swallow Evaluation"	
+-- "Rehab Services"     "Deferred Bedside Swallow Study"
+-- "Rehab Services"     "Deferred Bedside Swallowing Evaluation"
+-- "Rehab Services"     "Deferred Cognitive-Linguistic Evaluation"
+-- "Rehab Services"     "Deferred Evaluation"
+-- "Rehab Services"     "Deferred PMV"
+-- "Rehab Services"     "Deferred PMV & Swallow Evaluation"
+-- "Rehab Services"     "Deferred PMV Evaluation"
+-- "Rehab Services"     "Deferred PMV Trial and Green-Dye Bedside Swallowin"
+-- "Rehab Services"     "Deferred Repeat Bedside Swallowing Evaluation"
+-- "Rehab Services"     "Deferred Repeat PMV Evaluation"
+-- "Rehab Services"     "Deferred Repeat Swallowing Evaluation"
+-- "Rehab Services"     "Deferred Swallow Evaluation"
+-- "Rehab Services"     "Deferred Swallow Follow Up"
+-- "Rehab Services"     "Deferred Swallowing & Aphasia Evaluations"
+-- "Rehab Services"     "Deferred Swallowing Evaluation"
+-- "Rehab Services"     "Deferred Video Swallow Evaluation"
+-- "Rehab Services"     "FEES Exam and Repeat Bedside Swallow Evaluation"
+-- ... ...
+-- "Radiology"          "VIDEO OROPHARYNGEAL SWALLOW"	
+-- "Radiology"          "P VIDEO OROPHARYNGEAL SWALLOW PORT"
+-- ... ...
+-- "Rehab Services"     "Video Swallow Evaluation"
+-- "Rehab Services"     "Video Swallow Study"
+-- "Rehab Services"     "Videoswallow study"
+-- "Rehab Services"     "Voice Consult"
+-- ... ...
+-- "Rehab Services"     "SWALLOWING FOLLOW-UP"
+-- ... ...
+-- "Rehab Services"     "Occupational Therapy Abbreviated Evaluation Note"
+-- "Rehab Services"     "Occupational Therapy Evaluation Note"
+-- "Rehab Services"     "Occupational Therapy Progress Note"
+-- ... ...
+-- "General"            "Physical Therapy"	
+-- "General"            "Physical Therapy Contact Note"
+-- "General"            "Physical Therapy Contact Note."
+-- "General"            "Physical Therapy. Rehab Services"
+-- "General"            "Physical Therapy/Rehabilitation Services"
+-- "General"            "Pt/Rehab Services"	"General"
+-- ... ...
+-- "Rehab Services"     "Rehab Services/PT"
+-- "Rehab Services"     "Rehab Services/PT contact note"
+-- "Rehab Services"     "Rehab/PT"
+-- ... ...
+-- "Rehab Services"     "Physical Therapy Contact  Note"
+-- "Rehab Services"     "Physical Therapy D/C Note"
+-- "Rehab Services"     "Physical Therapy Evaluation"
+-- "Rehab Services"     "Physical Therapy Evaluation Note"
+-- "Rehab Services"     "Physical Therapy Initial Evaluation"
+-- "Rehab Services"     "Physical Therapy Progress Note"
+-- "Rehab Services"     "Physical Therapy Progress Note Addendum"
+-- "Rehab Services"     "Physical Therapy RE- Evaluation Note"
+-- "Rehab Services"     "Physical Therapy Re - Evaluation Note"
+-- "Rehab Services"     "Physical Therapy Re- Evaluation Note"
+-- "Rehab Services"     "Physical Therapy Re-Evaluation Note"
+-- "Rehab Services"     "Physical Therapy Re-evaluation Note"
+
+
 -- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4404223/
 -- PFIT-s 
 -- PFIT-s 
@@ -9,8 +169,6 @@
 -- SPPB
 
 
-
-
 -- https://pdfs.semanticscholar.org/c772/8774968de810db76cc3f570745b837317da9.pdf
 -- Barthel Index (BI)
 -- FIM scale
@@ -18,8 +176,6 @@
 -- Modified Rankin Scale (mRS)
 -- Disability Rating Scale (DRS)
 -- 4P Qustionnaire
-
-
 
 
 -- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5392193/
@@ -33,8 +189,6 @@
 -- Transfer	                 7 (2-14)    9 (2-14)	12 (2-18)   < 0.001
 -- Communication	            11 (2-14)   13 (2-14)	14 (2-14)   < 0.001
 -- Social cognition	        21 (3-21)   21 (3-21)	21 (3-21)   < 0.001
-
-
 
 
 -- https://www.nature.com/articles/nrneurol.2016.89
