@@ -1,3 +1,5 @@
+
+--- Antivirals (Tamiflu)
 --- Thrombolytics
 --- Anticoagulants
 --- Antiplatelets
@@ -7,6 +9,10 @@
 -- D_ICD_PROCEDURES
 -- ICD9-CODE    LONG_TITLE
 -- "0011"	        "Infusion of drotrecogin alfa (activated)"
+
+-- D_ITEMS
+-- ITEMID   LABEL
+-- 228003	"Tamiflu"
 
 -- D_ITEMS
 -- ITEMID   LABEL

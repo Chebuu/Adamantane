@@ -1,11 +1,11 @@
 -- -- DITEMS
 -- ITEMID    LABEL
---  465		 "Neuro Symptoms"
+--  465	   "Neuro Symptoms"
 --  4262     "Neuro consult"
---  4617	 "Neurology consult"
+--  4617	   "Neurology consult"
 --  4902     "neuro consult"
 --  223921   "Neuro Symptoms"
---  228402	 "Neurological Symptoms"
+--  228402   "Neurological Symptoms"
 
 
 -- -- --
@@ -105,12 +105,13 @@
 -- LONG_TITLE ILIKE '%ct%'
 -- -- --
 -- ICD-9    D_ICD_PROCEDURES.LONG_TITLE
+-- "0011"	"Infusion of drotrecogin alfa (activated)"
 -- "0096"	"Infusion of 4-Factor Prothrombin Complex Concentrate"
+-- ... ...
 -- "0101"	"Cisternal puncture"
 -- "0102"	"Ventriculopuncture through previously implanted catheter"
 -- "0109"	"Other cranial puncture"
 -- "0125"	"Other craniectomy"
--- "0011"	"Infusion of drotrecogin alfa (activated)"
 -- ...       ...
 -- "0031"	"Computer assisted surgery with CT/CTA"
 -- ...       ...
@@ -305,7 +306,7 @@ SELECT
      subject_id
     ,hadm_id
 
-    -- ¿Is it possible to qunatify the number of CVAs during hospitalization?
+    -- ¿Is it possible to quantify the number of CVAs during hospitalization?
     ,AS nstrokes
 
 
