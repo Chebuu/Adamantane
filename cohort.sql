@@ -96,12 +96,4 @@ WHERE cases.* IS NOT NULL
     -- --   D_ITEMS.CATEGORIES = "Research Enrollment Note"
     -- --   NOTEEVENTS.DESCRIPTION = "CLINICAL RESEARCH GRANT" and NOTEEVENTS.CATEGORY = "Radiology"
     -- )
--- GROUP BY  
---      dxicd.subject_id
---     ,dxicd.hadm_id
---     ,dxicd.icd9_code
---     ,dxicd.seq_num
---     ,cases.ndc
---     ,cases.memantine
---     ,cases.amantadine
---     ,cases.rimantadine
+
