@@ -1,6 +1,5 @@
-datadir=$1
-outfile=$2
-formext=$3
-complvl=$4
+#!/bin/bash
+outfile=$1
+datadir=$2
 
-# DEPRECATED
+tar -zcvf $outfile $datadir

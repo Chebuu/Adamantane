@@ -1,10 +1,10 @@
 .DEFAULT_GOAL := default
 DEFAULT_TASKS := identifiers cohort features
 
-compress-build:
-	bash tar -zcvf data.tar.gz data
-	bash echo $(gzip -l data.tar.gz)
-	bash echo $(gzip -tv data.tar.gz)
+compress-data:
+	bash bin/compress-data.sh data.tar.gz data
+	@echo $(gzip -l data.tar.gz)
+	@echo $(gzip -tv data.tar.gz)
 
 build-cohort: cohort.sql
 	bash bin/build-cohort.sh \
@@ -43,4 +43,10 @@ export-identifiers:
 		-d "mimic"
 
 default:
+	@echo "Running default build..."
 	$(MAKE) $(foreach task, $(DEFAULT_TASKS), build-$(task) export-$(task))
+	@echo "Compressing data/ --> data.tar.gz"
+	$(MAKE) compress-data
+	@echo "Build completed successfully"
+	@echo "Data exported to data.tar.gz"
+
