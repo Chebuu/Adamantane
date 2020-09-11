@@ -1,8 +1,12 @@
 .DEFAULT_GOAL := default
 DEFAULT_TASKS := identifiers cohort features
 
+compress-build:
+	bash tar -zcvf data.tar.gz data
+	bash echo $(gzip -l data.tar.gz)
+	bash echo $(gzip -tv data.tar.gz)
+
 build-cohort: cohort.sql
-	make clean-log
 	bash bin/build-cohort.sh \
 		-h $(or $(PGHOST), false) \
 		-p $(or $(PGPORT), false) \
