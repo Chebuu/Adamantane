@@ -2,6 +2,8 @@
 
 source bin/abspath.sh
 
+# . ./abspath.sh --source-only
+
 EXPORT_TO=$(abspath data/cohort-build/cohort.csv)
 
 LOG_FLAGS=(v g)
@@ -36,6 +38,10 @@ PGS_CMD=psql$(
     done  
 )
 
-echo "Exporting cohort..."
-eval "PGOPTIONS=$PGOPTIONS" $PGS_CMD -c '"COPY (select * from cohort) TO' "'$EXPORT_TO'" 'WITH CSV HEADER;"'
+echo "TODO:: Skipping export in export-identifiers.sh ..."
 
+# echo "Exporting idx_stroke_icd9..."
+# eval "PGOPTIONS=$PGOPTIONS" $PGS_CMD -c '"COPY (select * from idx_stroke_icd9) TO' "'$EXPORT_TO'" 'WITH CSV HEADER;"'
+
+# echo "Exporting idx_stroke_icd9..."
+# eval "PGOPTIONS=$PGOPTIONS" $PGS_CMD -c '"COPY (select * from idx_tpa_items) TO' "'$EXPORT_TO'" 'WITH CSV HEADER;"'

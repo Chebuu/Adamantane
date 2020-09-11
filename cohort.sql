@@ -89,11 +89,11 @@ WHERE cases.* IS NOT NULL
             FROM idx_stroke_icd9
         )
     )
-    -- WHERE cases.* IS NOT NULL
-    -- AND (
-    -- -- Pt is not enrolled in a clinical trial
-    -- -- See the following tables: 
-    -- --   D_ITEMS.CATEGORIES = "Research Enrollment Note"
-    -- --   NOTEEVENTS.DESCRIPTION = "CLINICAL RESEARCH GRANT" and NOTEEVENTS.CATEGORY = "Radiology"
-    -- )
+-- WHERE cases.* IS NOT NULL
+-- AND (
+-- -- Pt is not enrolled in a clinical trial
+-- -- See the following tables: 
+-- --   D_ITEMS.CATEGORIES = "Research Enrollment Note"
+-- --   NOTEEVENTS.DESCRIPTION = "CLINICAL RESEARCH GRANT" and NOTEEVENTS.CATEGORY = "Radiology"
+-- )
 

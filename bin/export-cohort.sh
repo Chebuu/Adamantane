@@ -1,6 +1,8 @@
 #!/bin/bash
 
-. ./abspath.sh --source-only
+source bin/abspath.sh
+
+# . ./abspath.sh --source-only
 
 EXPORT_TO=$(abspath data/exports/cohort.csv)
 
