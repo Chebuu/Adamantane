@@ -47,6 +47,8 @@ default:
 	$(MAKE) $(foreach task, $(DEFAULT_TASKS), build-$(task) export-$(task))
 	@echo "Compressing data/ --> data.tar.gz"
 	$(MAKE) compress-data
-	@echo "Build completed successfully"
-	@echo "Data exported to data.tar.gz"
+	@echo "# Build completed successfully\n"
+	@echo "# Data exported to data.tar.gz\n"
+	@echo "# Done\n"
+	
 
