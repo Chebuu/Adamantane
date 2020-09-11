@@ -1,3 +1,13 @@
+# Instructions
+
+Run the default task to build and export all views to CSV (gzip).
+
+```bash
+$ export PGHOST=127.0.0.1
+$ export PGPORT=5432
+$ make
+```
+
 # About
 Retrospective study of adamantane derivatives as neuroprotectants post-CVA.
 
