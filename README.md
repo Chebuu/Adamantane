@@ -1,5 +1,7 @@
 # About
-Retrospective study of adamantane derivatives as neuroprotectants post-CVA
+Retrospective study of adamantane derivatives as neuroprotectants post-CVA.
+
+![Adamantane [PubChem CID: 9238]](https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=9238&t=s)
 
 ## Central NMDA Receptor Physiology
 mGluR5-Ca2+ apoptosis					
@@ -16,6 +18,8 @@ Hippocampal long-tem potentiation
 ## Memantine Pharmacodynamics
 
 https://www.drugbank.ca/drugs/DB01043
+
+![Memantine [PubChem CID: 4054]](https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=4054&t=s)
 
 ### Central activity
 
@@ -37,6 +41,23 @@ https://www.drugbank.ca/drugs/DB01043
 ### ADME Kinetics
 
 Drugs@FDA: [Namenda® Tablets/Oral Solution (memantine hydrochloride)](https://www.accessdata.fda.gov/drugsatfda_docs/label/2005/021627lbl.pdf)
+
+Memantine is well absorbed after oral administration and has linear pharmacokinetics over the
+therapeutic dose range. It is excreted predominantly in the urine, unchanged, and has a terminal
+elimination half life of about 60-80 hours.
+
+Following oral administration memantine is highly absorbed with peak concentrations reached in
+about 3-7 hours. Food has no effect on the absorption of memantine. The mean volume of
+distribution of memantine is 9-11 L/kg and the plasma protein binding is low (45%). 
+
+Majority (57-82%) of administered dose is excreted unchanged in urine; the remainder is converted primarily to three polar metabolites: 
+
+- N-gludantan conjugate
+- 6-hydroxy memantine
+- 1-nitroso-deaminated memantine
+
+These metabolites possess minimal NMDA receptor antagonist activity. Memantine has a terminal elimination half-life of about 60-80 hours. Renal clearance involves
+active tubular secretion moderated by pH dependent tubular reabsorption.
 
 ### Cytochrome P450 2B6
 
