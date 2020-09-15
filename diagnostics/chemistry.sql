@@ -25,3 +25,5 @@
 -- "Drug Level"
 -- "Toxicology"
 -- "Cardiovascular (Pulses)"
+
+-- $$ LANGUAGE plpgsql

@@ -151,3 +151,6 @@ with neuro as (
     -- 223932	    "Neuro Drain #1 Drainage"	"chartevents"	"Neuro Drain #1 Drainage"
     -- 223754	    "Risk for Falls"	"chartevents"	"Risk for Falls"
 )
+
+
+-- $$ LANGUAGE plpgsql

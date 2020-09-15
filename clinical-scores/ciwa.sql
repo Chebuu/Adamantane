@@ -18,3 +18,5 @@
 -- 1934		"3.Paroxysmal Sweats"
 -- 1940		"9. H/A Head fullness"
 -- 1941		"Total CIWA"
+
+-- $$ LANGUAGE plpgsql

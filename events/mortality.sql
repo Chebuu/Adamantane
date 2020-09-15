@@ -51,3 +51,6 @@ RIGHT JOIN patients pts
 ON pts.subject_id = cht.subject_id
 RIGHT JOIN admissions adm
 ON adm.hadm_id = cht.hadm_id
+
+
+-- $$ LANGUAGE plpgsql

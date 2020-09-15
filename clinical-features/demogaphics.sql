@@ -48,3 +48,5 @@
 -- E970-E979  Legal Intervention
 -- E980-E989  Injury Undetermined Whether Accidentally Or Purposely Inflicted
 -- E990-E999  Injury Resulting From Operations Of War
+
+-- $$ LANGUAGE plpgsql

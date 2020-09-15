@@ -4,3 +4,6 @@
 -- D_LABITEMS.CATEGORY
 -- "HEMATOLOGY"
 -- "Hematology"
+
+
+-- $$ LANGUAGE plpgsql

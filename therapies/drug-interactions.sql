@@ -25,3 +25,4 @@
 -- Octeotide
 -- Epoprostenol
 
+-- $$ LANGUAGE plpgsql

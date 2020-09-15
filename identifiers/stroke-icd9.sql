@@ -85,3 +85,5 @@ VALUES
     -- -- obstructive hydrocephalus (?)
     -- -- extracranial occlusion (?)
     -- -- undefined inchemia (?)
+
+-- $$ LANGUAGE plpgsql

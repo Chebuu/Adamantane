@@ -27,3 +27,5 @@
 -- triamterene
 -- trimethoprim
 -- verapamil
+
+-- $$ LANGUAGE plpgsql

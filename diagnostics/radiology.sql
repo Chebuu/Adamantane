@@ -94,3 +94,5 @@ with angio as (
     
    where icd9_code = '0031' -- D_ICD_PROCEDURES.LONG = "Computer assisted surgery with CTA"
 )
+
+-- $$ LANGUAGE plpgsql

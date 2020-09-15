@@ -37,3 +37,4 @@ select
     c.valuenum is not NULL
   order by c.subject_id, c.charttime
   
+-- $$ LANGUAGE plpgsql

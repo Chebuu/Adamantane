@@ -14,6 +14,45 @@
 -- ITEMID   LABEL
 -- 228003	"Tamiflu"
 
+CREATE OR REPLACE FUNCTION get_ditems(which TEXT)
+RETURNS INTEGER[] AS 
+$$
+DECLARE 
+    _ditems INTEGER[];
+BEGIN
+    IF    which = 'thromb' THEN
+    ELSIF which = 'xygris' THEN
+    ELSIF which = 'tamiflu' THEN
+    ELSiF which = 'corticos' THEN
+    ELSIF which = 'antibios'
+    ELSIF which 
+    ELSE
+
+    EXECUTE 'CREATE TABLE ' || _tablename
+    ;
+
+    --insert all the values in this intermediate table
+    EXECUTE ' INSERT INTO ' || _tablename || ' ( select t_stamp , sum(data)   from thing_data td, collector_tb ct where td.thingname = 
+            ct.collector_name and td.t_stamp BETWEEN  ' ||  quote_literal(start_time) || ' AND ' || quote_literal(end_time) || ' and 
+            ct.type like ' || quote_literal('%outlet%') ||' AND  customer_id = ' || customer_id || ' GROUP BY t_stamp)'
+    ; 
+
+    EXECUTE 
+        'select width_bucket(sum_of_values,500, 1000 , 100), count(*) as cnt from ' || _tablename || ' GROUP BY 1 ORDER BY 1'
+    ;
+
+    EXECUTE 
+        'select array (select cnt from (select width_bucket(sum_of_values,500, 1000 , 100), count(*) as cnt from  '|| _tablename ||' GROUP BY 1 ORDER BY 1) a)' 
+    INTO _return_array
+    ;
+
+    EXECUTE 'DROP TABLE ' || _tablename;
+
+    RETURN _return_array;
+
+END $$ LANGUAGE plpgsql;
+
+
 DROP MATERIALIZED VIEW IF EXISTS pharmaceuticals CASCADE;
 CREATE MATERIALIZED VIEW pharmaceuticals AS
 
@@ -64,3 +103,5 @@ GROUP BY
      cht.subject_id
     ,cht.hadm_id
     ,thb.itemid
+
+-- $$ LANGUAGE plpgsql

@@ -137,3 +137,5 @@
 -- 226759	"Scores - APACHE II"	"HCO3ApacheIIValue"	"chartevents"	"HCO3ApacheIIValue"
 -- 226760	"Scores - APACHE II"	"HCO3Score"	"chartevents"	"HCO3Score"
 -- 226761	"Scores - APACHE II"	"HematocritApacheIIScore"	"chartevents"	"HematocritApacheIIScore"
+
+-- $$ LANGUAGE plpgsql

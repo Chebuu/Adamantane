@@ -31,3 +31,5 @@ WHERE itemid IN (
     ,45872 -- tpa cc/hr, carevue, inputevents_cv
     ,221319 -- Alteplase (TPA), metavision,inputevents_mv
 )
+
+-- $$ LANGUAGE plpgsql

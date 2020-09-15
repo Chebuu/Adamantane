@@ -322,3 +322,7 @@ SELECT
     
     -- Duration from onset to censor 
     ,AS duration 
+
+
+
+-- $$ LANGUAGE plpgsql

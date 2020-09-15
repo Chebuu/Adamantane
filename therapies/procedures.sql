@@ -93,3 +93,5 @@ WHEN dxicd.diagnoses_icd IN (
     )
     THEN 1 ELSE 0
 END AS hummingbird
+
+-- $$ LANGUAGE plpgsql

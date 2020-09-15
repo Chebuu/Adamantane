@@ -242,3 +242,6 @@ RIGHT JOIN cohort cht
     AND cht.hadm_id = dxi.hadm_id
 WHERE dxi.icd9_code IS NOT NULL
 GROUP BY dxi.hadm_id, cht.icustay_id
+
+
+-- $$ LANGUAGE plpgsql

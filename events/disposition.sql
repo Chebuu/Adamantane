@@ -18,3 +18,5 @@
 -- "Case Management "  "Discharge Plan Update"
 -- "Case Management "  "Discharge Planning Note"
 -- "Case Management "  "Discharge Pplanniing Update"
+
+-- $$ LANGUAGE plpgsql

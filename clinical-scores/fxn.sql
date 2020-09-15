@@ -220,3 +220,5 @@
 --   example, socioeconomic factors in work availability,
 --   attitude of past employers). Included here are leisure
 --   interests and family relationships.
+
+-- $$ LANGUAGE plpgsql
