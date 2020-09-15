@@ -3,9 +3,6 @@
 -- -- -- Ischemic stroke was defined as a hospitalization with ICD-9-CM codes 433.x1, 434.x1, or 436 in any discharge diagnosis position without a primary discharge code for rehabilitation (V57) or an accompanying diagnosis of trauma (ICD-9-CM 800–804 or 850–854) or ICH (ICD-9-CM 431) or subarachnoid hemorrhage (ICD-9-CM 430) in any diagnostic position.
 -- -- -- ICH was defined using ICD-9-CM code 431 in any discharge position without concomitant codes for rehabilitation (V57) in the primary diagnosis position or trauma (ICD-9-CM 800–804 or 850–854) in any position. 
 
-DROP MATERIALIZED VIEW IF EXISTS cohort CASCADE;
-CREATE MATERIALIZED VIEW cohort AS
-
 WITH cases AS (
     SELECT
          drugs.subject_id
@@ -82,13 +79,21 @@ FROM diagnoses_icd dxicd
 LEFT JOIN cases
     ON  dxicd.subject_id = cases.subject_id
     AND dxicd.hadm_id = cases.hadm_id
-WHERE cases.* IS NOT NULL
-    AND dxicd.icd9_code ILIKE ANY ( 
+WHERE dxicd.icd9_code ILIKE ANY ( 
         ARRAY (
             SELECT icd9_code 
             FROM idx_stroke_icd9
         )
     )
+GROUP BY 
+     dxicd.subject_id
+    ,dxicd.hadm_id
+    ,dxicd.icd9_code
+    ,dxicd.seq_num
+    ,cases.ndc
+    ,cases.memantine
+    ,cases.amantadine
+    ,cases.rimantadine
 -- WHERE cases.* IS NOT NULL
 -- AND (
 -- -- Pt is not enrolled in a clinical trial
