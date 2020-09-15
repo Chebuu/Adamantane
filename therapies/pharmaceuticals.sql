@@ -56,6 +56,7 @@ SELECT
     ,cht.hadm_id
     ,thb.itemid
 FROM cohort cht 
+WHERE thb.itemid IS NOT NULL
 LEFT JOIN thromb thb 
     ON  cht.subject_id = thb.subject_id
     AND cht.hadm_id = thb.hadm_id
