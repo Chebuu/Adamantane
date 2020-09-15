@@ -1,6 +1,6 @@
 # Instructions
 
-Run the default task to build and export all views to CSV (gzip).
+Run the default task to build and export all views to CSV (tarball).
 
 ```bash
 $ export PGHOST=127.0.0.1
