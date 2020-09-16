@@ -1,0 +1,586 @@
+CREATE OR REPLACE FUNCTION adme_items(which TEXT)
+RETURNS INTEGER[] AS 
+$$
+DECLARE 
+    _ditems INTEGER[];    
+BEGIN
+    IF which = '2B6' THEN
+        NULL;
+    ELSIF which = '2A6' THEN
+        NULL;
+    ELSIF which = '2C19' THEN
+        NULL;
+    ELSE 
+        EXECUTE 'SELECT ARRAY (0)' INTO _ditems;
+    END IF;
+    RETURN _ditems
+END $$ LANGUAGE plpgsql;
+
+
+-- # Drugbank::Memantine::Enzymes
+-- Cytochrome P450 2B6
+-- https://www.drugbank.ca/polypeptides/P20813
+-- DRUGBANK ID	NAME	DRUG GROUP	PHARMACOLOGICAL ACTION?	ACTIONS
+-- DB02974	4-(4-Chlorophenyl)Imidazole	experimental	unknown	
+-- DB04664	Cyclohexyl-pentyl-maltoside	experimental	unknown	
+-- DB04794	Bifonazole	approved, investigational	unknown	
+-- DB00333	Methadone	approved	unknown	substrateinducer
+-- DB00531	Cyclophosphamide	approved, investigational	unknown	substrateinducer
+-- DB00532	Mephenytoin	approved, investigational, withdrawn	unknown	substrate
+-- DB00625	Efavirenz	approved, investigational	unknown	substrateinducer
+-- DB01104	Sertraline	approved	unknown	substrateinhibitor
+-- DB01156	Bupropion	approved	unknown	substrate
+-- DB01181	Ifosfamide	approved	unknown	substrate
+-- DB00184	Nicotine	approved	unknown	substrate
+-- DB00208	Ticlopidine	approved	unknown	inhibitor
+-- DB00220	Nelfinavir	approved	unknown	inhibitor
+-- DB00238	Nevirapine	approved	unknown	substrateinducer
+-- DB00252	Phenytoin	approved, vet_approved	unknown	substrateinducer
+-- DB00454	Meperidine	approved	no	substrate
+-- DB00503	Ritonavir	approved, investigational	no	inhibitorinducer
+-- DB00564	Carbamazepine	approved, investigational	unknown	substrateinducer
+-- DB00758	Clopidogrel	approved	unknown	substrateinhibitor
+-- DB00818	Propofol	approved, investigational, vet_approved	unknown	substrate
+-- DB00849	Methylphenobarbital	approved	unknown	substrate
+-- DB01037	Selegiline	approved, investigational, vet_approved	unknown	substrateinhibitor
+-- DB01043	Memantine	approved, investigational	unknown	inhibitor
+-- DB01173	Orphenadrine	approved	unknown	inhibitor
+-- DB00381	Amlodipine	approved	unknown	substrateinhibitor
+-- DB00675	Tamoxifen	approved	unknown	substrateinhibitor
+-- DB00313	Valproic acid	approved, investigational	unknown	substrate
+-- DB00568	Cinnarizine	approved, investigational	unknown	substrate
+-- DB00398	Sorafenib	approved, investigational	unknown	inhibitor
+-- DB04572	Thiotepa	approved, investigational	unknown	inhibitor
+-- DB01174	Phenobarbital	approved, investigational	unknown	inducer
+-- DB01045	Rifampicin	approved	unknown	inducer
+-- DB00762	Irinotecan	approved, investigational	unknown	substrate
+-- DB01069	Promethazine	approved, investigational	unknown	substrate
+-- DB01221	Ketamine	approved, vet_approved	unknown	substrate
+-- DB01320	Fosphenytoin	approved, investigational	unknown	inducer
+-- DB01151	Desipramine	approved, investigational	unknown	inhibitor
+-- DB00997	Doxorubicin	approved, investigational	unknown	inhibitor
+-- DB00257	Clotrimazole	approved, vet_approved	unknown	inhibitorinducer
+-- DB01167	Itraconazole	approved, investigational	unknown	inhibitor
+-- DB00481	Raloxifene	approved, investigational	unknown	inhibitor
+-- DB00829	Diazepam	approved, illicit, investigational, vet_approved	unknown	substrate
+-- DB00641	Simvastatin	approved	unknown	inhibitorinducer
+-- DB00439	Cerivastatin	approved, withdrawn	unknown	inducer
+-- DB01076	Atorvastatin	approved	no	inducer
+-- DB06739	Seratrodast	experimental	unknown	substrate
+-- DB00514	Dextromethorphan	approved	unknown	substrate
+-- DB03575	Phencyclidine	illicit	unknown	inhibitor
+-- DB00865	Benzphetamine	approved, illicit	unknown	substrate
+-- DB08369	1-(biphenyl-4-ylmethyl)-1H-imidazole	experimental	unknown	
+-- DB06697	Artemether	approved	unknown	substrateinducer
+-- DB00321	Amitriptyline	approved	unknown	substrate
+-- DB00701	Amprenavir	approved, investigational	unknown	inhibitor
+-- DB00604	Cisapride	approved, investigational, withdrawn	unknown	substrate
+-- DB00349	Clobazam	approved, illicit	unknown	substrate
+-- DB06470	Clomethiazole	investigational	unknown	substrate
+-- DB01559	Clotiazepam	approved, illicit	unknown	substrate
+-- DB01394	Colchicine	approved	unknown	inhibitor
+-- DB01234	Dexamethasone	approved, investigational, vet_approved	unknown	inducer
+-- DB00586	Diclofenac	approved, vet_approved	unknown	substrate
+-- DB01184	Domperidone	approved, investigational, vet_approved	unknown	substrate
+-- DB00751	Epinastine	approved, investigational	unknown	substrate
+-- DB00655	Estrone	approved	unknown	substrate
+-- DB00898	Ethanol	approved	unknown	inhibitor
+-- DB01466	Ethylmorphine	experimental, illicit	unknown	substrate
+-- DB01544	Flunitrazepam	approved, illicit	unknown	substrate
+-- DB00472	Fluoxetine	approved, vet_approved	unknown	substrate
+-- DB00176	Fluvoxamine	approved, investigational	unknown	inhibitor
+-- DB01159	Halothane	approved, vet_approved	unknown	substrate
+-- DB00458	Imipramine	approved	unknown	substrate
+-- DB00753	Isoflurane	approved, vet_approved	unknown	substrateinhibitorinducer
+-- DB06738	Ketobemidone	investigational	unknown	substrate
+-- DB01026	Ketoconazole	approved, investigational	unknown	inhibitor
+-- DB00281	Lidocaine	approved, vet_approved	unknown	substrate
+-- DB01601	Lopinavir	approved	unknown	inhibitor
+-- DB00772	Malathion	approved, investigational	unknown	substrate
+-- DB04817	Metamizole	approved, investigational, withdrawn	unknown	inducer
+-- DB01028	Methoxyflurane	approved, investigational, vet_approved	unknown	substrate
+-- DB06710	Methyltestosterone	approved	unknown	substrate
+-- DB00379	Mexiletine	approved, investigational	unknown	substrate
+-- DB06148	Mianserin	approved, investigational	unknown	substrate
+-- DB01110	Miconazole	approved, investigational, vet_approved	unknown	inhibitor
+-- DB00745	Modafinil	approved, investigational	unknown	inhibitorinducer
+-- DB00622	Nicardipine	approved, investigational	unknown	inducer
+-- DB01115	Nifedipine	approved	unknown	inducer
+-- DB00715	Paroxetine	approved, investigational	unknown	inhibitor
+-- DB01074	Perhexiline	approved, investigational	unknown	substrate
+-- DB04930	Permethrin	approved, investigational	unknown	substrateinducer
+-- DB01435	Antipyrine	approved, investigational	unknown	substrate
+-- DB00908	Quinidine	approved, investigational	unknown	inhibitor
+-- DB00296	Ropivacaine	approved	unknown	substrate
+-- DB00778	Roxithromycin	approved, investigational, withdrawn	unknown	inhibitor
+-- DB01236	Sevoflurane	approved, vet_approved	unknown	substrate
+-- DB06729	Sulfaphenazole	approved	unknown	inhibitor
+-- DB01138	Sulfinpyrazone	approved	unknown	inducer
+-- DB00231	Temazepam	approved, investigational	unknown	substrate
+-- DB00624	Testosterone	approved, investigational	unknown	substrate
+-- DB00763	Methimazole	approved	unknown	inhibitor
+-- DB00193	Tramadol	approved, investigational	unknown	substrate
+-- DB00197	Troglitazone	approved, investigational, withdrawn	unknown
+-- DB00661	Verapamil	approved	unknown	substrateactivator
+-- DB00755	Tretinoin	approved, investigational, nutraceutical	unknown	substrate
+-- DB04868	Nilotinib	approved, investigational	unknown	inducer
+-- DB06413	Armodafinil	approved, investigational	unknown	inducer
+-- DB00836	Loperamide	approved	unknown	substrate
+-- DB04975	Banoxantrone	investigational	unknown	substrate
+-- DB00435	Nitric Oxide	approved	unknown	inhibitor
+-- DB00515	Cisplatin	approved	unknown	inhibitor
+-- DB06209	Prasugrel	approved	yes	substrate
+-- DB04871	Lorcaserin	approved	no	substrate
+-- DB08864	Rilpivirine	approved	unknown	inhibitor
+-- DB08896	Regorafenib	approved	unknown	inhibitor
+-- DB08899	Enzalutamide	approved	unknown	inhibitor
+-- DB04938	Ospemifene	approved, investigational	unknown	substrate
+-- DB09074	Olaparib	approved	unknown	inducer
+-- DB09054	Idelalisib	approved	no	inducer
+-- DB09068	Vortioxetine	approved, investigational	no	substrate
+-- DB09280	Lumacaftor	approved	no	inducer
+-- DB09570	Ixazomib	approved, investigational	unknown	substrate
+-- DB06176	Romidepsin	approved, investigational	unknown	substrate
+-- DB01589	Quazepam	approved, illicit	unknown	inhibitor
+-- DB08865	Crizotinib	approved	unknown	inhibitor
+-- DB05219	Crisaborole	approved, investigational	no	inhibitor
+-- DB06595	Midostaurin	approved, investigational	unknown	inducer
+-- DB11613	Velpatasvir	approved, investigational	no	substrate
+-- DB05541	Brivaracetam	approved, investigational	no	substrate
+-- DB09238	Manidipine	approved, investigational	unknown	inhibitor
+-- DB13874	Enasidenib	approved, investigational	unknown	substrateinhibitorinducer
+-- DB12070	Letermovir	approved, investigational	no	inducer
+-- DB13943	Testosterone cypionate	approved	unknown	substrateinducer
+-- DB13944	Testosterone enanthate	approved	unknown	substrateinducer
+-- DB13946	Testosterone undecanoate	approved, investigational	unknown	substrateinducer
+-- DB13941	Piperaquine	experimental, investigational	unknown	inhibitor
+-- DB11642	Pitolisant	approved, investigational	unknown	inducer
+-- DB11633	Isavuconazole	approved, investigational	unknown	inducer
+-- DB11586	Asunaprevir	approved, investigational, withdrawn	no	substrate
+-- DB11672	Curcumin	approved, experimental, investigational	unknown	inhibitor
+-- DB13132	Artemisinin	investigational	no	substrateinducer
+-- DB00582	Voriconazole	approved	unknown	inhibitor
+-- DB14568	Ivosidenib	approved, investigational	unknown	inducer
+-- DB00615	Rifabutin	approved, investigational	no	inducer
+-- DB11753	Rifamycin	approved, investigational	no	inhibitorinducer
+-- DB01201	Rifapentine	approved, investigational	no	inducer
+-- DB06654	Safinamide	approved, investigational	unknown	inhibitor
+-- DB08883	Perampanel	approved	unknown	substrateinducer
+-- DB09078	Lenvatinib	approved, investigational	unknown	inhibitor
+-- DB14635	Curcumin sulfate	experimental	unknown	inhibitor
+-- DB01095	Fluvastatin	approved	unknown	inducer
+-- DB08912	Dabrafenib	approved, investigational	unknown	inducer
+-- DB08881	Vemurafenib	approved	unknown	inducer
+-- DB12130	Lorlatinib	approved, investigational	unknown	inducer
+-- DB12245	Triclabendazole	approved, investigational	unknown	inhibitor
+-- DB11823	Esketamine	approved, investigational	unknown	substrateinducer
+-- DB00455	Loratadine	approved, investigational	unknown	substrate
+-- DB12978	Pexidartinib	approved, investigational	unknown	inhibitorinducer
+-- DB00956	Hydrocodone	approved, illicit, investigational	unknown	substrate
+-- DB11757	Istradefylline	approved, investigational	unknown	substrate
+-- DB00972	Azelastine	approved	unknown	inhibitor
+-- DB04856	Dexloxiglumide	investigational	unknown	substrate
+-- DB12808	Trifarotene	approved, investigational	unknown	substrate
+-- DB12001	Abemaciclib	approved, investigational	unknown	inhibitor
+-- DB15444	Elexacaftor	approved, investigational	unknown	inhibitor
+-- DB15035	Zanubrutinib	approved, investigational	no	inducer
+-- DB14975	Voxelotor	approved, investigational	unknown	substrate
+-- DB00635	Prednisone	approved, vet_approved	unknown	inducer
+-- DB00741	Hydrocortisone	approved, vet_approved	unknown	inducer
+-- DB06119	Cenobamate	approved, investigational	unknown	substrateinhibitorinducer
+-- DB01222	Budesonide	approved	unknown	inducer
+-- DB00959	Methylprednisolone	approved, vet_approved	unknown	inducer
+-- DB11951	Lemborexant	approved, investigational	unknown	inducer
+-- DB00957	Norgestimate	approved, investigational	unknown	substrate
+-- DB11837	Osilodrostat	approved, investigational	unknown	substrate
+-- DB00443	Betamethasone	approved, vet_approved	unknown	inducer
+-- DB09241	Methylene blue	approved, investigational	unknown	inhibitor
+-- DB14631	Prednisolone phosphate	approved, vet_approved	unknown	inducer
+-- DB00714	Apomorphine	approved, investigational	unknown	substrate
+-- DB14649	Dexamethasone acetate	approved, investigational, vet_approved	unknown	inducer
+-- DB00574	Fenfluramine	approved, illicit, investigational, withdrawn	unknown	substrate
+-- DB11932	Abametapir	approved, investigational	unknown	inhibitor
+-- DB12499	Clascoterone	approved, investigational	no	inhibitor
+
+
+
+
+-- Cytochrome P450 2A6
+-- https://www.drugbank.ca/polypeptides/P11509
+-- DRUGBANK ID	NAME	DRUG GROUP	PHARMACOLOGICAL ACTION?	ACTIONS
+-- DB04665	Coumarin	experimental	unknown	
+-- DB00184	Nicotine	approved	unknown	substrateinhibitor
+-- DB01006	Letrozole	approved, investigational	unknown	substrateinhibitor
+-- DB00356	Chlorzoxazone	approved	unknown	substrate
+-- DB00553	Methoxsalen	approved	unknown	inhibitor
+-- DB00752	Tranylcypromine	approved, investigational	unknown	inhibitor
+-- DB01011	Metyrapone	approved, investigational	unknown	inhibitor
+-- DB01085	Pilocarpine	approved, investigational	unknown	inhibitor
+-- DB01159	Halothane	approved, vet_approved	unknown	substrate
+-- DB04977	Plitidepsin	investigational	unknown	substrate
+-- DB01115	Nifedipine	approved	unknown	substrate
+-- DB01037	Selegiline	approved, investigational, vet_approved	unknown	substrateinhibitor
+-- DB01181	Ifosfamide	approved	unknown	substrate
+-- DB00313	Valproic acid	approved, investigational	unknown	substrateinducer
+-- DB00238	Nevirapine	approved	unknown	substrate
+-- DB00568	Cinnarizine	approved, investigational	unknown	substrate
+-- DB04841	Flunarizine	approved	unknown	substrate
+-- DB00471	Montelukast	approved	unknown	substrate
+-- DB07609	N,N-DIMETHYL(5-(PYRIDIN-3-YL)FURAN-2-YL)METHANAMINE	experimental	unknown	
+-- DB07617	N-METHYL(5-(PYRIDIN-3-YL)FURAN-2-YL)METHANAMINE	experimental	unknown	
+-- DB07621	(5-(PYRIDIN-3-YL)FURAN-2-YL)METHANAMINE	experimental	unknown	
+-- DB07623	4,4'-DIPYRIDYL DISULFIDE	experimental	unknown	
+-- DB00182	Amphetamine	approved, illicit, investigational	unknown	inhibitor
+-- DB00972	Azelastine	approved	unknown	substrateinhibitor
+-- DB00604	Cisapride	approved, investigational, withdrawn	unknown	substrate
+-- DB06470	Clomethiazole	investigational	unknown	substrate
+-- DB00257	Clotrimazole	approved, vet_approved	unknown	inhibitor
+-- DB00363	Clozapine	approved	unknown	substrate
+-- DB00531	Cyclophosphamide	approved, investigational	unknown	substrate
+-- DB01234	Dexamethasone	approved, investigational, vet_approved	unknown	inducer
+-- DB00216	Eletriptan	approved, investigational	unknown	inducer
+-- DB01544	Flunitrazepam	approved, illicit	unknown	substrate
+-- DB00544	Fluorouracil	approved	unknown	substrate
+-- DB01213	Fomepizole	approved, vet_approved	unknown	inhibitor
+-- DB00951	Isoniazid	approved, investigational	unknown	inhibitor
+-- DB01026	Ketoconazole	approved, investigational	unknown	inhibitor
+-- DB00281	Lidocaine	approved, vet_approved	unknown	substrate
+-- DB01043	Memantine	approved, investigational	unknown	inhibitor
+-- DB00170	Menadione	approved, nutraceutical	unknown	inhibitor
+-- DB01028	Methoxyflurane	approved, investigational, vet_approved	unknown	substrate
+-- DB01110	Miconazole	approved, investigational, vet_approved	unknown	inhibitor
+-- DB06712	Nilvadipine	approved, investigational	unknown	inhibitor
+-- DB00316	Acetaminophen	approved	unknown	substrate
+-- DB03783	Phenacetin	withdrawn	unknown	substrate
+-- DB01435	Antipyrine	approved, investigational	unknown	substrate
+-- DB01174	Phenobarbital	approved, investigational	unknown	inducer
+-- DB00396	Progesterone	approved, vet_approved	unknown	inducer
+-- DB01045	Rifampicin	approved	unknown	inducer
+-- DB00412	Rosiglitazone	approved, investigational	unknown	inhibitor
+-- DB06739	Seratrodast	experimental	unknown	inhibitor
+-- DB01236	Sevoflurane	approved, vet_approved	unknown	substrate
+-- DB00675	Tamoxifen	approved	unknown	substrate
+-- DB00763	Methimazole	approved	unknown	inhibitor
+-- DB00495	Zidovudine	approved	unknown	substrate
+-- DB00690	Flurazepam	approved, illicit, investigational	unknown	substrate
+-- DB00755	Tretinoin	approved, investigational, nutraceutical	unknown	substrate
+-- DB01274	Arformoterol	approved, investigational	unknown	substrate
+-- DB04871	Lorcaserin	approved	no	substrate
+-- DB01118	Amiodarone	approved, investigational	unknown	inhibitor
+-- DB00312	Pentobarbital	approved, investigational, vet_approved	unknown	inducer
+-- DB06292	Dapagliflozin	approved	no	substrate
+-- DB09068	Vortioxetine	approved, investigational	no	substrate
+-- DB09256	Tegafur	approved, investigational	yes	substrate
+-- DB09327	Tegafur-uracil	approved, investigational	no	substrate
+-- DB11586	Asunaprevir	approved, investigational, withdrawn	no	substrate
+-- DB09274	Artesunate	approved, investigational	unknown	substrate
+-- DB12245	Triclabendazole	approved, investigational	unknown	inhibitor
+-- DB00916	Metronidazole	approved	unknown	substrate
+-- DB05676	Apremilast	approved, investigational	unknown	substrate
+-- DB01039	Fenofibrate	approved	unknown	inhibitor
+-- DB00717	Norethisterone	approved	unknown	substrate
+-- DB00635	Prednisone	approved, vet_approved	unknown	inducer
+-- DB00741	Hydrocortisone	approved, vet_approved	unknown	inducer
+-- DB06119	Cenobamate	approved, investigational	unknown	substrate
+-- DB01222	Budesonide	approved	unknown	inducer
+-- DB00959	Methylprednisolone	approved, vet_approved	unknown	inducer
+-- DB00252	Phenytoin	approved, vet_approved	yes	substrate
+-- DB00983	Formoterol	approved, investigational	unknown	substrate
+-- DB00443	Betamethasone	approved, vet_approved	unknown	inducer
+-- DB14631	Prednisolone phosphate	approved, vet_approved	unknown	inducer
+-- DB14649	Dexamethasone acetate	approved, investigational, vet_approved	unknown	inducer
+
+
+
+
+-- Cytochrome P450 2C19
+-- https://www.drugbank.ca/polypeptides/P33261
+-- DRUGBANK ID	NAME	DRUG GROUP	PHARMACOLOGICAL ACTION?	ACTIONS	DETAILS
+-- DB00188	Bortezomib	approved, investigational	no	substrateinhibitor	
+-- DB00213	Pantoprazole	approved	unknown	substrateinhibitor	
+-- DB00215	Citalopram	approved	unknown	substrateinhibitor	
+-- DB00220	Nelfinavir	approved	unknown	substrateinducer	
+-- DB00252	Phenytoin	approved, vet_approved	unknown	substrateinducer	
+-- DB00273	Topiramate	approved	unknown	inhibitor	
+-- DB00328	Indomethacin	approved, investigational	unknown	substrateinhibitor	
+-- DB00338	Omeprazole	approved, investigational, vet_approved	unknown	substrateinhibitor	
+-- DB00349	Clobazam	approved, illicit	unknown	substrate	
+-- DB00395	Carisoprodol	approved	unknown	substrate	
+-- DB00396	Progesterone	approved, vet_approved	unknown	substrateinhibitor	
+-- DB00420	Promazine	approved, vet_approved	unknown	substrate	
+-- DB00444	Teniposide	approved	unknown	substrate	
+-- DB00448	Lansoprazole	approved, investigational	unknown	substrateinhibitor	
+-- DB00546	Adinazolam	experimental	unknown	substrate	
+-- DB00582	Voriconazole	approved	unknown	substrateinhibitor	
+-- DB00665	Nilutamide	approved, investigational	unknown	substrateinhibitor	
+-- DB00679	Thioridazine	approved, withdrawn	unknown	substrate	
+-- DB00736	Esomeprazole	approved, investigational	unknown	substrateinhibitor	
+-- DB00738	Pentamidine	approved, investigational	unknown	substrate	
+-- DB00794	Primidone	approved, vet_approved	unknown	substrateinducer	
+-- DB00849	Methylphenobarbital	approved	unknown	substrate	
+-- DB00949	Felbamate	approved	unknown	inhibitor	
+-- DB01018	Guanfacine	approved, investigational	unknown	substrate	
+-- DB01104	Sertraline	approved	unknown	substrateinhibitor	
+-- DB01124	Tolbutamide	approved, investigational	unknown	substrate	
+-- DB01129	Rabeprazole	approved, investigational	unknown	substrateinhibitor	
+-- DB01131	Proguanil	approved	unknown	substrate	
+-- DB01166	Cilostazol	approved, investigational	unknown	substrate	
+-- DB01171	Moclobemide	approved, investigational	unknown	substrateinhibitor	
+-- DB01174	Phenobarbital	approved, investigational	unknown	substrateinducer	
+-- DB01274	Arformoterol	approved, investigational	unknown	substrate	
+-- DB01320	Fosphenytoin	approved, investigational	unknown	substrate	
+-- DB01544	Flunitrazepam	approved, illicit	unknown	substrate	
+-- DB00176	Fluvoxamine	approved, investigational	no	inhibitor	
+-- DB00197	Troglitazone	approved, investigational, withdrawn	unknown	inhibitor	
+-- DB00208	Ticlopidine	approved	unknown	substrateinhibitor	
+-- DB00321	Amitriptyline	approved	unknown	substrateinhibitor	
+-- DB00343	Diltiazem	approved, investigational	unknown	substrate	
+-- DB00455	Loratadine	approved, investigational	yes	substrateinhibitor	
+-- DB00458	Imipramine	approved	unknown	substrateinhibitor	
+-- DB00503	Ritonavir	approved, investigational	no	inducer	
+-- DB00532	Mephenytoin	approved, investigational, withdrawn	unknown	substrateinhibitor	
+-- DB00586	Diclofenac	approved, vet_approved	unknown	substrate	
+-- DB00622	Nicardipine	approved, investigational	unknown	inhibitor	
+-- DB00625	Efavirenz	approved, investigational	unknown	inducer	
+-- DB00745	Modafinil	approved, investigational	unknown	inhibitor	
+-- DB00752	Tranylcypromine	approved, investigational	unknown	inhibitor	
+-- DB00776	Oxcarbazepine	approved	unknown	inhibitor	
+-- DB01026	Ketoconazole	approved, investigational	unknown	inhibitor	
+-- DB01041	Thalidomide	approved, investigational, withdrawn	unknown	substrateinhibitor	
+-- DB01424	Aminophenazone	approved, withdrawn	unknown	substrateinhibitor	
+-- DB00333	Methadone	approved	unknown	substrate	
+-- DB06442	Avasimibe	investigational	unknown	inhibitor	
+-- DB01065	Melatonin	approved, nutraceutical, vet_approved	unknown	substrate	
+-- DB01076	Atorvastatin	approved	no	inhibitor	
+-- DB01095	Fluvastatin	approved	unknown	inhibitor	
+-- DB00196	Fluconazole	approved, investigational	unknown	inhibitor	
+-- DB00619	Imatinib	approved	unknown	substrate	
+-- DB00468	Quinine	approved	unknown	substrateinhibitor	
+-- DB01142	Doxepin	approved, investigational	no	substrate	
+-- DB01435	Antipyrine	approved, investigational	unknown	substrate	
+-- DB00250	Dapsone	approved, investigational	unknown	substrate	
+-- DB00675	Tamoxifen	approved	unknown	substrate	
+-- DB05109	Trabectedin	approved, investigational	unknown	substrate	
+-- DB01418	Acenocoumarol	approved, investigational	unknown	substrate	
+-- DB00682	Warfarin	approved	unknown	substrateinhibitor	
+-- DB00540	Nortriptyline	approved	unknown	substrate	
+-- DB00857	Terbinafine	approved, investigational, vet_approved	unknown	substrate	
+-- DB00972	Azelastine	approved	unknown	substrateinhibitor	
+-- DB01075	Diphenhydramine	approved, investigational	unknown	substrate	
+-- DB00829	Diazepam	approved, illicit, investigational, vet_approved	unknown	substrateinhibitor	
+-- DB00446	Chloramphenicol	approved, vet_approved	unknown	inhibitor	
+-- DB01242	Clomipramine	approved, investigational, vet_approved	unknown	substrate	
+-- DB00758	Clopidogrel	approved	unknown	substrate	
+-- DB00531	Cyclophosphamide	approved, investigational	unknown	substrate	
+-- DB01355	Hexobarbital	experimental	unknown	substrate	
+-- DB00571	Propranolol	approved, investigational	unknown	substrate	
+-- DB00501	Cimetidine	approved, investigational	unknown	inhibitor	
+-- DB00472	Fluoxetine	approved, vet_approved	unknown	substrateinhibitor	
+-- DB06403	Ambrisentan	approved, investigational	unknown	substrate	
+-- DB01175	Escitalopram	approved	unknown	substrate	
+-- DB06414	Etravirine	approved	unknown	substrateinhibitor	
+-- DB01181	Ifosfamide	approved	unknown	substrate	
+-- DB05246	Methsuximide	approved	unknown	substrateinhibitor	
+-- DB00726	Trimipramine	approved	unknown	substrate	
+-- DB00357	Aminoglutethimide	approved, investigational	unknown	inducer	
+-- DB00564	Carbamazepine	approved, investigational	unknown	inhibitorinducer	
+-- DB01601	Lopinavir	approved	unknown	inhibitor	
+-- DB01045	Rifampicin	approved	unknown	inducer	
+-- DB06413	Armodafinil	approved, investigational	unknown	inhibitor	
+-- DB00705	Delavirdine	approved	unknown	inhibitor	
+-- DB01241	Gemfibrozil	approved	unknown	inhibitor	
+-- DB00951	Isoniazid	approved, investigational	unknown	inhibitor	
+-- DB06268	Sitaxentan	approved, investigational, withdrawn	unknown	inhibitor	
+-- DB00216	Eletriptan	approved, investigational	unknown	substrate	
+-- DB00363	Clozapine	approved	unknown	substrateinhibitor	
+-- DB00425	Zolpidem	approved	unknown	substrate	
+-- DB01036	Tolterodine	approved, investigational	unknown	substrate	
+-- DB01283	Lumiracoxib	approved, investigational	unknown	substrate	
+-- DB00203	Sildenafil	approved, investigational	unknown	substrateinhibitor	
+-- DB00672	Chlorpropamide	approved, investigational	unknown	substrate	
+-- DB01120	Gliclazide	approved	unknown	substrate	
+-- DB01016	Glyburide	approved	unknown	substrate	
+-- DB06739	Seratrodast	experimental	unknown	substrate	
+-- DB06697	Artemether	approved	unknown	substrateinducer	
+-- DB00945	Acetylsalicylic acid	approved, vet_approved	unknown	inducer	
+-- DB01118	Amiodarone	approved, investigational	unknown	substrateinhibitor	
+-- DB00701	Amprenavir	approved, investigational	unknown	inhibitor	
+-- DB00673	Aprepitant	approved, investigational	unknown	substrateinhibitor	
+-- DB00289	Atomoxetine	approved	unknown	substrate	
+-- DB01558	Bromazepam	approved, illicit, investigational	unknown	substrate	
+-- DB00297	Bupivacaine	approved, investigational	unknown	substrate	
+-- DB00921	Buprenorphine	approved, illicit, investigational, vet_approved	unknown	inhibitor	
+-- DB00091	Cyclosporine	approved, investigational, vet_approved	unknown	inhibitor	
+-- DB00604	Cisapride	approved, investigational, withdrawn	unknown	substrateinhibitor	
+-- DB06470	Clomethiazole	investigational	unknown	substrate	
+-- DB01559	Clotiazepam	approved, illicit	unknown	substrate	
+-- DB01234	Dexamethasone	approved, investigational, vet_approved	unknown	inducer	
+-- DB00514	Dextromethorphan	approved	unknown	substrate	
+-- DB01093	Dimethyl sulfoxide	approved, vet_approved	unknown	inhibitor	
+-- DB00590	Doxazosin	approved	unknown	substrate	
+-- DB00783	Estradiol	approved, investigational, vet_approved	unknown	substrate	
+-- DB00898	Ethanol	approved	unknown	inhibitor	
+-- DB01628	Etoricoxib	approved, investigational	unknown	inhibitor	
+-- DB00499	Flutamide	approved, investigational	unknown	substrate	
+-- DB00502	Haloperidol	approved	unknown	substrate	
+-- DB01050	Ibuprofen	approved	unknown	substrate	
+-- DB06738	Ketobemidone	investigational	unknown	substrate	
+-- DB00678	Losartan	approved	unknown	inhibitor	
+-- DB01043	Memantine	approved, investigational	unknown	inhibitor	
+-- DB01110	Miconazole	approved, investigational, vet_approved	unknown	inhibitor	
+-- DB00184	Nicotine	approved	unknown	substrate	
+-- DB06712	Nilvadipine	approved, investigational	unknown	inhibitor	
+-- DB00717	Norethisterone	approved	unknown	substrateinducer	
+-- DB00334	Olanzapine	approved, investigational	unknown	inhibitor	
+-- DB00312	Pentobarbital	approved, investigational, vet_approved	unknown	substrate	
+-- DB00850	Perphenazine	approved	unknown	substrate	
+-- DB00454	Meperidine	approved	unknown	substrate	
+-- DB03783	Phenacetin	withdrawn	unknown	substrate	
+-- DB00780	Phenelzine	approved	unknown	inhibitor	
+-- DB01058	Praziquantel	approved, investigational, vet_approved	unknown	substrate	
+-- DB00635	Prednisone	approved, vet_approved	unknown	inducer	
+-- DB00818	Propofol	approved, investigational, vet_approved	unknown	substrate	
+-- DB01589	Quazepam	approved, illicit	unknown	substrate	
+-- DB01224	Quetiapine	approved	unknown	substrate	
+-- DB01037	Selegiline	approved, investigational, vet_approved	unknown	substrate	
+-- DB00259	Sulfanilamide	approved	unknown	inhibitor	
+-- DB00966	Telmisartan	approved, investigational	unknown	inhibitor	
+-- DB00624	Testosterone	approved, investigational	unknown	substrate	
+-- DB00763	Methimazole	approved	unknown	inhibitor	
+-- DB00373	Timolol	approved	unknown	substrate	
+-- DB01007	Tioconazole	approved	unknown	inhibitor	
+-- DB00347	Trimethadione	approved	unknown	substrate	
+-- DB00313	Valproic acid	approved, investigational	unknown	substrateinhibitor	
+-- DB00661	Verapamil	approved	unknown	substrate	
+-- DB00549	Zafirlukast	approved, investigational	unknown	inhibitor	
+-- DB00909	Zonisamide	approved, investigational	unknown	substrateinhibitor	
+-- DB00398	Sorafenib	approved, investigational	unknown	inhibitor	
+-- DB00932	Tipranavir	approved, investigational	unknown	substrateinhibitor	
+-- DB00980	Ramelteon	approved, investigational	unknown	substrate	
+-- DB01128	Bicalutamide	approved	unknown	inhibitor	
+-- DB01259	Lapatinib	approved, investigational	unknown	substrate	
+-- DB01621	Pipotiazine	approved, investigational	unknown	substrate	
+-- DB00918	Almotriptan	approved, investigational	unknown	substrate	
+-- DB04920	Clevidipine	approved, investigational	unknown	inhibitor	
+-- DB00109	Enfuvirtide	approved, investigational	unknown	substrate	
+-- DB00239	Oxiconazole	approved	unknown	substrate	
+-- DB06204	Tapentadol	approved	unknown	substrate	
+-- DB06209	Prasugrel	approved	yes	substrate	
+-- DB04871	Lorcaserin	approved	no	substrate	
+-- DB08864	Rilpivirine	approved	unknown	substrate	
+-- DB06605	Apixaban	approved	unknown	substrate	
+-- DB06626	Axitinib	approved, investigational	no	substrate	
+-- DB08828	Vismodegib	approved, investigational	unknown	inhibitor	
+-- DB08899	Enzalutamide	approved	unknown	inducer	
+-- DB08895	Tofacitinib	approved, investigational	no	substrate	
+-- DB04938	Ospemifene	approved, investigational	unknown	substrate	
+-- DB00317	Gefitinib	approved, investigational	unknown	inhibitor	
+-- DB08918	Levomilnacipran	approved, investigational	unknown	substrate	
+-- DB08932	Macitentan	approved	no	substrate	
+-- DB08933	Luliconazole	approved	no	inhibitor	
+-- DB09049	Naloxegol	approved	unknown	inhibitor	
+-- DB00951	Isoniazid	approved, investigational	unknown		
+-- DB09054	Idelalisib	approved	no	inhibitor	
+-- DB09068	Vortioxetine	approved, investigational	no	substrate	
+-- DB09280	Lumacaftor	approved	no	inducer	
+-- DB09570	Ixazomib	approved, investigational	unknown	substrate	
+-- DB06176	Romidepsin	approved, investigational	unknown	substrate	
+-- DB09119	Eslicarbazepine acetate	approved	yes	inhibitor	
+-- DB06789	Hydroxyprogesterone caproate	approved, investigational	unknown	inducer	
+-- DB05812	Abiraterone	approved	unknown	inhibitor	
+-- DB09118	Stiripentol	approved	unknown	substrateinhibitor	
+-- DB06595	Midostaurin	approved, investigational	unknown	inhibitorinducer	
+-- DB05541	Brivaracetam	approved, investigational	no	substrate	
+-- DB05351	Dexlansoprazole	approved, investigational	unknown	substrateinhibitor	
+-- DB01685	Topiroxostat	experimental	unknown	inhibitor	
+-- DB09120	Zucapsaicin	approved, investigational	unknown	inhibitor	
+-- DB09198	Lobeglitazone	experimental	no	inhibitor	
+-- DB09167	Dosulepin	approved	unknown	inhibitor	
+-- DB09166	Etizolam	experimental	unknown	substrate	
+-- DB11614	Rupatadine	approved	no	substrate	
+-- DB12319	Benzbromarone	investigational, withdrawn	unknown	inhibitor	
+-- DB09238	Manidipine	approved, investigational	unknown	inhibitor	
+-- DB13874	Enasidenib	approved, investigational	unknown	substrateinhibitor	
+-- DB12070	Letermovir	approved, investigational	no	inducer	
+-- DB12332	Rucaparib	approved, investigational	unknown	inhibitor	
+-- DB09061	Cannabidiol	approved, investigational	unknown	substrate	
+-- DB13943	Testosterone cypionate	approved	unknown	substrate	
+-- DB13944	Testosterone enanthate	approved	unknown	substrate	
+-- DB13946	Testosterone undecanoate	approved, investigational	unknown	substrate	
+-- DB13952	Estradiol acetate	approved, investigational, vet_approved	unknown	substrate	
+-- DB13953	Estradiol benzoate	approved, investigational, vet_approved	unknown	substrate	
+-- DB13954	Estradiol cypionate	approved, investigational, vet_approved	unknown	substrate	
+-- DB13955	Estradiol dienanthate	approved, investigational, vet_approved	unknown	substrate	
+-- DB13956	Estradiol valerate	approved, investigational, vet_approved	unknown	substrate	
+-- DB11638	Artenimol	experimental, investigational	unknown	inhibitor	
+-- DB13941	Piperaquine	experimental, investigational	unknown	substrateinhibitor	
+-- DB11901	Apalutamide	approved, investigational	unknown	inducer	
+-- DB11633	Isavuconazole	approved, investigational	unknown	inhibitor	
+-- DB11586	Asunaprevir	approved, investigational, withdrawn	no	substrate	
+-- DB14011	Nabiximols	investigational	unknown	substrate	
+-- DB14009	Medical Cannabis	experimental, investigational	unknown	substrate	
+-- DB11632	Opicapone	approved, investigational	unknown	inducer	
+-- DB13746	Bioallethrin	approved, experimental	no	substrate	
+-- DB04948	Lofexidine	approved, investigational	no	substrate	
+-- DB00598	Labetalol	approved	unknown	substrate	
+-- DB11967	Binimetinib	approved, investigational	unknown	substrate	
+-- DB11718	Encorafenib	approved, investigational	unknown	substrate	
+-- DB12474	Lynestrenol	approved, investigational	no	substrateinhibitor	
+-- DB00615	Rifabutin	approved, investigational	no	inducer	
+-- DB01201	Rifapentine	approved, investigational	no	inducer	
+-- DB01220	Rifaximin	approved, investigational	no	inducer	
+-- DB11753	Rifamycin	approved, investigational	no	inhibitorinducer	
+-- DB01483	Barbital	illicit	no	substrateinducer	
+-- DB00474	Methohexital	approved	no	substrate	
+-- DB00418	Secobarbital	approved, vet_approved	no	inducer	
+-- DB00599	Thiopental	approved, vet_approved	no	substrate	
+-- DB06654	Safinamide	approved, investigational	unknown	inhibitor	
+-- DB09078	Lenvatinib	approved, investigational	unknown	inhibitor	
+-- DB05928	Dovitinib	investigational	unknown	inhibitor	
+-- DB08496	(R)-warfarin	experimental	unknown	substrate	
+-- DB14055	(S)-Warfarin	experimental, investigational	unknown	substrate	
+-- DB04911	Oritavancin	approved, investigational	unknown	inhibitor	
+-- DB06218	Lacosamide	approved	unknown	substrate	
+-- DB13762	Dexrabeprazole	experimental	unknown	substrate	
+-- DB12319	Benzbromarone	investigational, withdrawn	unknown	inhibitor	
+-- DB09213	Dexibuprofen	approved, investigational	unknown	substrate	
+-- DB00518	Albendazole	approved, vet_approved	no	substrate	
+-- DB14025	Clinafloxacin	investigational	unknown	inhibitor	
+-- DB06731	Seproxetine	investigational	unknown	inhibitor	
+-- DB14575	Eslicarbazepine	approved	unknown	inhibitor	
+-- DB01323	St. John's Wort	approved, investigational, nutraceutical	no	substrateinducer	
+-- DB12130	Lorlatinib	approved, investigational	unknown	substrate	
+-- DB12245	Triclabendazole	approved, investigational	unknown	substrateinhibitor	
+-- DB11823	Esketamine	approved, investigational	unknown	substrate	
+-- DB06684	Vilazodone	approved	unknown	substrate	
+-- DB12015	Alpelisib	approved, investigational	unknown	inhibitor	
+-- DB00977	Ethinylestradiol	approved	unknown	inhibitor	
+-- DB06730	Gestodene	investigational	unknown	inhibitor	
+-- DB00641	Simvastatin	approved	unknown	substrate	
+-- DB00227	Lovastatin	approved, investigational	unknown	substrate	
+-- DB00715	Paroxetine	approved, investigational	unknown	substrateinhibitor	
+-- DB00956	Hydrocodone	approved, illicit, investigational	unknown	substrate	
+-- DB04861	Nebivolol	approved, investigational	unknown	substrate	
+-- DB12500	Fedratinib	approved, investigational	unknown	substrate	
+-- DB08502	Capravirine	investigational	unknown	substrate	
+-- DB14635	Curcumin sulfate	experimental	unknown	inhibitor	
+-- DB01039	Fenofibrate	approved	unknown	inhibitor	
+-- DB15444	Elexacaftor	approved, investigational	unknown	inhibitor	
+-- DB14975	Voxelotor	approved, investigational	unknown	substrate	
+-- DB00741	Hydrocortisone	approved, vet_approved	unknown	inducer	
+-- DB06119	Cenobamate	approved, investigational	unknown	substrateinhibitor	
+-- DB01222	Budesonide	approved	unknown	inducer	
+-- DB00959	Methylprednisolone	approved, vet_approved	unknown	inducer	
+-- DB15328	Ubrogepant	approved, investigational	unknown	inhibitor	
+-- DB00983	Formoterol	approved, investigational	unknown	substrate	
+-- DB01006	Letrozole	approved, investigational	unknown	inhibitor	
+-- DB11837	Osilodrostat	approved, investigational	unknown	inhibitor	
+-- DB00443	Betamethasone	approved, vet_approved	unknown	inducer	
+-- DB09241	Methylene blue	approved, investigational	unknown	inhibitor	
+-- DB11689	Selumetinib	approved, investigational	yes	substrate	
+-- DB14631	Prednisolone phosphate	approved, vet_approved	unknown	inducer	
+-- DB14649	Dexamethasone acetate	approved, investigational, vet_approved	unknown	inducer	
+-- DB00574	Fenfluramine	approved, illicit, investigational, withdrawn	unknown	substrate	
+-- DB14881	Oliceridine	approved, investigational	unknown	substrate	
+-- DB12499	Clascoterone	approved, investigational	no	inhibitor	
+-- DB15093	Somapacitan	approved, investigational	unknown	inhibitor	

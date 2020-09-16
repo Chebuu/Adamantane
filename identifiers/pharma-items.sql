@@ -2,7 +2,7 @@
 -- ICD9-CODE    LONG_TITLE
 -- "0011"	        "Infusion of drotrecogin alfa (activated)"
 
-CREATE OR REPLACE FUNCTION get_ditems(which TEXT)
+CREATE OR REPLACE FUNCTION pharma_items(which TEXT)
 RETURNS INTEGER[] AS 
 $$
 DECLARE 
