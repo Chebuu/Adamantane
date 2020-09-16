@@ -26,13 +26,15 @@ Hippocampal long-tem potentiation
 </p>
 
 # Memantine
-[FDA](https://s3-us-west-2.amazonaws.com/drugbank/fda_labels/DB01043.pdf?1555341575)
-[MSDS](https://s3-us-west-2.amazonaws.com/drugbank/msds/DB01043.pdf?1265922738)
+
+- [FDA](https://s3-us-west-2.amazonaws.com/drugbank/fda_labels/DB01043.pdf?1555341575)
+- [MSDS](https://s3-us-west-2.amazonaws.com/drugbank/msds/DB01043.pdf?1265922738)
+- [Drugbank ID: DB01043](https://www.drugbank.ca/drugs/DB01043)
+- [PubChem CID: 4054](https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=4054&t=s)
+
 ## Memantine Pharmacodynamics
 
-https://www.drugbank.ca/drugs/DB01043
-
-![Memantine [PubChem CID: 4054]](https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=4054&t=s)
+> Rammes, G et al. *Pharmacodynamics of memantine: an update.* Current neuropharmacology vol. 6,1 (2008): 55-78. [doi:157015908783769671](https://doi.org/10.2174/157015908783769671)
 
 ### Central activity
 
@@ -269,57 +271,61 @@ PharmGKB
 
 **References**
 
-Xia P, Chen HS, Zhang D, Lipton SA: Memantine preferentially blocks extrasynaptic over synaptic NMDA receptor currents in hippocampal autapses. J Neurosci. 2010 Aug 18;30(33):11246-50. doi: 10.1523/JNEUROSCI.2488-10.2010. [PubMed:20720132](http://www.ncbi.nlm.nih.gov/pubmed/20720132)
-
-Limapichat W, Yu WY, Branigan E, Lester HA, Dougherty DA: Key binding interactions for memantine in the NMDA receptor. ACS Chem Neurosci. 2013 Feb 20;4(2):255-60. doi: 10.1021/cn300180a. Epub 2012 Dec 7. [PubMed:23421676](http://www.ncbi.nlm.nih.gov/pubmed/23421676)
-
-Muller F, Weitz D, Derdau V, Sandvoss M, Mertsch K, Konig J, Fromm MF: Contribution of MATE1 to Renal Secretion of the NMDA Receptor Antagonist Memantine. Mol Pharm. 2017 Sep 5;14(9):2991-2998. doi: 10.1021/acs.molpharmaceut.7b00179. Epub 2017 Aug 2. [PubMed:28708400](http://www.ncbi.nlm.nih.gov/pubmed/28708400)
-
-Molinaro G, Battaglia G, Riozzi B, Di Menna L, Rampello L, Bruno V, Nicoletti F: Memantine treatment reduces the expression of the K(+)/Cl(-) cotransporter KCC2 in the hippocampus and cerebral cortex, and attenuates behavioural responses mediated by GABA(A) receptor activation in mice. Brain Res. 2009 Apr 10;1265:75-9. doi: 10.1016/j.brainres.2009.02.016. Epub 2009 Feb 21. [PubMed:19236854](http://www.ncbi.nlm.nih.gov/pubmed/19236854)
-
-Robinson DM, Keating GM: Memantine: a review of its use in Alzheimer's disease. Drugs. 2006;66(11):1515-34. [PubMed:16906789]
-Cacabelos R, Takeda M, Winblad B: The glutamatergic system and neurodegeneration in dementia: preventive strategies in Alzheimer's disease. Int J Geriatr Psychiatry. 1999 Jan;14(1):3-47. [PubMed:10029935](http://www.ncbi.nlm.nih.gov/pubmed/10029935)
-
-Rogawski MA, Wenk GL: The neuropharmacological basis for the use of memantine in the treatment of Alzheimer's disease. CNS Drug Rev. 2003 Fall;9(3):275-308. [PubMed:14530799](http://www.ncbi.nlm.nih.gov/pubmed/14530799)
-
-Rammes G, Rupprecht R, Ferrari U, Zieglgansberger W, Parsons CG: The N-methyl-D-aspartate receptor channel blockers memantine, MRZ 2/579 and other amino-alkyl-cyclohexanes antagonise 5-HT(3) receptor currents in cultured HEK-293 and N1E-115 cell systems in a non-competitive manner. Neurosci Lett. 2001 Jun 22;306(1-2):81-4. [PubMed:11403963](http://www.ncbi.nlm.nih.gov/pubmed/11403963)
-
-Nisijima K, Shioda K, Yoshino T, Takano K, Kato S: Memantine, an NMDA antagonist, prevents the development of hyperthermia in an animal model for serotonin syndrome. Pharmacopsychiatry. 2004 Mar;37(2):57-62. doi: 10.1055/s-2004-815526. [PubMed:15048612](http://www.ncbi.nlm.nih.gov/pubmed/15048612)
-
-Aracava Y, Pereira EF, Maelicke A, Albuquerque EX: Memantine blocks alpha7* nicotinic acetylcholine receptors more potently than n-methyl-D-aspartate receptors in rat hippocampal neurons. J Pharmacol Exp Ther. 2005 Mar;312(3):1195-205. Epub 2004 Nov 2. [PubMed:15522999](http://www.ncbi.nlm.nih.gov/pubmed/15522999)
-
-Maskell PD, Speder P, Newberry NR, Bermudez I: Inhibition of human alpha 7 nicotinic acetylcholine receptors by open channel blockers of N-methyl-D-aspartate receptors. Br J Pharmacol. 2003 Dec;140(7):1313-9. doi: 10.1038/sj.bjp.0705559. [PubMed:14645141](http://www.ncbi.nlm.nih.gov/pubmed/14645141)
-
-Pohanka M: Alpha7 nicotinic acetylcholine receptor is a target in pharmacology and toxicology. Int J Mol Sci. 2012;13(2):2219-38. doi: 10.3390/ijms13022219. Epub 2012 Feb 17. [PubMed:22408449](http://www.ncbi.nlm.nih.gov/pubmed/22408449)
-
-Seeman P, Caruso C, Lasaga M: Memantine agonist action at dopamine D2High receptors. Synapse. 2008 Feb;62(2):149-53. [PubMed:18000814](http://www.ncbi.nlm.nih.gov/pubmed/18000814)
-
-Serra G, Demontis F, Serra F, De Chiara L, Spoto A, Girardi P, Vidotto G, Serra G: Memantine: New prospective in bipolar disorder treatment. World J Psychiatry. 2014 Dec 22;4(4):80-90. doi: 10.5498/wjp.v4.i4.80. [PubMed:25540723](http://www.ncbi.nlm.nih.gov/pubmed/25540723)
-
-Nakaya K, Nakagawasai O, Arai Y, Onogi H, Sato A, Niijima F, Tan-No K, Tadano T: Pharmacological characterizations of memantine-induced disruption of prepulse inhibition of the acoustic startle response in mice: involvement of dopamine D2 and 5-HT2A receptors. Behav Brain Res. 2011 Mar 17;218(1):165-73. doi: 10.1016/j.bbr.2010.11.053. Epub 2010 Dec 3. [PubMed:21130810](http://www.ncbi.nlm.nih.gov/pubmed/21130810)
-
-Mancini M, Ghiglieri V, Bagetta V, Pendolino V, Vannelli A, Cacace F, Mineo D, Calabresi P, Picconi B: Memantine alters striatal plasticity inducing a shift of synaptic responses toward long-term depression. Neuropharmacology. 2016 Feb;101:341-50. doi: 10.1016/j.neuropharm.2015.10.015. Epub 2015 Dec 3. [PubMed:26471421](http://www.ncbi.nlm.nih.gov/pubmed/26471421)
-
-Kotermanski SE, Wood JT, Johnson JW: Memantine binding to a superficial site on NMDA receptors contributes to partial trapping. J Physiol. 2009 Oct 1;587(Pt 19):4589-604. doi: 10.1113/jphysiol.2009.176297. Epub 2009 Aug 17. [PubMed:19687120](http://www.ncbi.nlm.nih.gov/pubmed/19687120)
-
-
-Cacabelos R, Takeda M, Winblad B: The glutamatergic system and neurodegeneration in dementia: preventive strategies in Alzheimer's disease. Int J Geriatr Psychiatry. 1999 Jan;14(1):3-47. [PubMed:10029935](http://www.ncbi.nlm.nih.gov/pubmed/10029935)
-
-Rogawski MA, Wenk GL: The neuropharmacological basis for the use of memantine in the treatment of Alzheimer's disease. CNS Drug Rev. 2003 Fall;9(3):275-308. [PubMed:14530799](http://www.ncbi.nlm.nih.gov/pubmed/14530799)
-
-Robinson DM, Keating GM: Memantine: a review of its use in Alzheimer's disease. Drugs. 2006;66(11):1515-34. [PubMed:16906789](http://www.ncbi.nlm.nih.gov/pubmed/16906789)
-
-Rogawski MA: Low affinity channel blocking (uncompetitive) NMDA receptor antagonists as therapeutic agents--toward an understanding of their favorable tolerability. Amino Acids. 2000;19(1):133-49. [PubMed:11026482](http://www.ncbi.nlm.nih.gov/pubmed/11026482)
-
-Rammes G, Rupprecht R, Ferrari U, Zieglgansberger W, Parsons CG: The N-methyl-D-aspartate receptor channel blockers memantine, MRZ 2/579 and other amino-alkyl-cyclohexanes antagonise 5-HT(3) receptor currents in cultured HEK-293 and N1E-115 cell systems in a non-competitive manner. Neurosci Lett. 2001 Jun 22;306(1-2):81-4. [PubMed:11403963](http://www.ncbi.nlm.nih.gov/pubmed/11403963)
-
-Kishi T, Matsunaga S, Oya K, Nomura I, Ikuta T, Iwata N: Memantine for Alzheimer's Disease: An Updated Systematic Review and Meta-analysis. J Alzheimers Dis. 2017;60(2):401-425. doi: 10.3233/JAD-170424. [PubMed:28922160](http://www.ncbi.nlm.nih.gov/pubmed/28922160)
-
-Brianne Kuns; Dona Varghese (2019). StatPearls: Memantine. StatPearls Publishing.
-135 million people will live with dementia worldwide by 2050 [Link](https://www.alzheimersresearchuk.org/135-million-people-will-live-with-dementia-worldwide-by-2050/)
-
-Sandoz Monograph: Memantine hydrochloride oral tablets [Link](https://s3-us-west-2.amazonaws.com/drugbank/cite_this/attachments/files/000/004/375/original/Memantine_FCT_PM_English20150916.pdf?1555348927)
-
-Alzheimer's disease international: Global Impact of Dementia 2013 [File](https://s3-us-west-2.amazonaws.com/drugbank/cite_this/attachments/files/000/004/366/original/GlobalImpactDementia2013.pdf?1555345885)
-
-Memantine Product [File](https://s3-us-west-2.amazonaws.com/drugbank/cite_this/attachments/files/000/004/375/original/Memantine_FCT_PM_English20150916.pdf?1555348927)
+> Rammes, G., Danysz, W., & Parsons, C. G. (2008). Pharmacodynamics of memantine: an update. Current neuropharmacology, 6(1), 55–78. [PubMed:19305788](https://www.ncbi.nlm.nih.gov/pubmed/19305788). [doi:157015908783769671](https://doi.org/10.2174/157015908783769671)
+> 
+> Xia P, Chen HS, Zhang D, Lipton SA: Memantine preferentially blocks extrasynaptic over synaptic NMDA receptor currents in  hippocampal autapses. J Neurosci. 2010 Aug 18;30(33):11246-50. doi: 10.1523/JNEUROSCI.2488-10.2010. [PubMed:20720132](http://www.ncbi.nlm.nih.gov/pubmed/20720132)
+> 
+> Limapichat W, Yu WY, Branigan E, Lester HA, Dougherty DA: Key binding interactions for memantine in the NMDA receptor. ACS  Chem Neurosci. 2013 Feb 20;4(2):255-60. doi: 10.1021/cn300180a. Epub 2012 Dec 7. [PubMed:23421676](http://www.ncbi.nlm.nih.gov/pubmed/23421676)
+> 
+> Muller F, Weitz D, Derdau V, Sandvoss M, Mertsch K, Konig J, Fromm MF: Contribution of MATE1 to Renal Secretion of the NMDA > 
+> Receptor Antagonist Memantine. Mol Pharm. 2017 Sep 5;14(9):2991-2998. doi: 10.1021/acs.molpharmaceut.7b00179. Epub 2017 Aug 2. [PubMed:28708400](http://www.ncbi.nlm.nih.gov/pubmed/28708400)
+> 
+> Molinaro G, Battaglia G, Riozzi B, Di Menna L, Rampello L, Bruno V, Nicoletti F: Memantine treatment reduces the expression of the K(+)/Cl(-) cotransporter KCC2 in the hippocampus and cerebral cortex, and attenuates behavioural responses mediated by GABA (A) receptor activation in mice. Brain Res. 2009 Apr 10;1265:75-9. doi: 10.1016/j.brainres.2009.02.016. Epub 2009 Feb 21. [PubMed:19236854](http://www.ncbi.nlm.nih.gov/pubmed/19236854)
+> 
+> Robinson DM, Keating GM: Memantine: a review of its use in Alzheimer's disease. Drugs. 2006;66(11):1515-34. [PubMed:16906789]
+>
+> Cacabelos R, Takeda M, Winblad B: The glutamatergic system and neurodegeneration in dementia: preventive strategies in  Alzheimer's disease. Int J Geriatr Psychiatry. 1999 Jan;14(1):3-47. [PubMed:10029935](http://www.ncbi.nlm.nih.gov/pubmed/10029935)
+> 
+> Rogawski MA, Wenk GL: The neuropharmacological basis for the use of memantine in the treatment of Alzheimer's disease. CNS  Drug Rev. 2003 Fall;9(3):275-308. [PubMed:14530799](http://www.ncbi.nlm.nih.gov/pubmed/14530799)
+> 
+> Rammes G, Rupprecht R, Ferrari U, Zieglgansberger W, Parsons CG: The N-methyl-D-aspartate receptor channel blockers memantine, MRZ 2/579 and other amino-alkyl-cyclohexanes antagonise 5-HT(3) receptor currents in cultured HEK-293 and N1E-115 cell systems in a non-competitive manner. Neurosci Lett. 2001 Jun 22;306(1-2):81-4. [PubMed:11403963](http://www.ncbi.nlm.nih.gov/pubmed/11403963)
+> 
+> Nisijima K, Shioda K, Yoshino T, Takano K, Kato S: Memantine, an NMDA antagonist, prevents the development of hyperthermia in an animal model for serotonin syndrome. Pharmacopsychiatry. 2004 Mar;37(2):57-62. doi: 10.1055/s-2004-815526. [PubMed:15048612](http://www.ncbi.nlm.nih.gov/pubmed/15048612)
+> 
+> Aracava Y, Pereira EF, Maelicke A, Albuquerque EX: Memantine blocks alpha7* nicotinic acetylcholine receptors more potently than n-methyl-D-aspartate receptors in rat hippocampal neurons. J Pharmacol Exp Ther. 2005 Mar;312(3):1195-205. Epub 2004 Nov 2. [PubMed:15522999](http://www.ncbi.nlm.nih.gov/pubmed/15522999)
+> 
+> Maskell PD, Speder P, Newberry NR, Bermudez I: Inhibition of human alpha 7 nicotinic acetylcholine receptors by open channel > blockers of N-methyl-D-aspartate receptors. Br J Pharmacol. 2003 Dec;140(7):1313-9. doi: 10.1038/sj.bjp.0705559. [PubMed:14645141](http://www.ncbi.nlm.nih.gov/pubmed/14645141)
+> 
+> Pohanka M: Alpha7 nicotinic acetylcholine receptor is a target in pharmacology and toxicology. Int J Mol Sci. 2012;13(2) :2219-38. doi: 10.3390/ijms13022219. Epub 2012 Feb 17. [PubMed:22408449](http://www.ncbi.nlm.nih.gov/pubmed/22408449)
+> 
+> Seeman P, Caruso C, Lasaga M: Memantine agonist action at dopamine D2High receptors. Synapse. 2008 Feb;62(2):149-53.  [PubMed:18000814](http://www.ncbi.nlm.nih.gov/pubmed/18000814)
+> 
+> Serra G, Demontis F, Serra F, De Chiara L, Spoto A, Girardi P, Vidotto G, Serra G: Memantine: New prospective in bipolar  disorder treatment. World J Psychiatry. 2014 Dec 22;4(4):80-90. doi: 10.5498/wjp.v4.i4.80. [PubMed:25540723](http://www.ncbi. nlm.nih.gov/pubmed/25540723)
+> 
+> Nakaya K, Nakagawasai O, Arai Y, Onogi H, Sato A, Niijima F, Tan-No K, Tadano T: Pharmacological characterizations of  memantine-induced disruption of prepulse inhibition of the acoustic startle response in mice: involvement of dopamine D2 and  5-HT2A receptors. Behav Brain Res. 2011 Mar 17;218(1):165-73. doi: 10.1016/j.bbr.2010.11.053. Epub 2010 Dec 3.  [PubMed:21130810](http://www.ncbi.nlm.nih.gov/pubmed/21130810)
+> 
+> Mancini M, Ghiglieri V, Bagetta V, Pendolino V, Vannelli A, Cacace F, Mineo D, Calabresi P, Picconi B: Memantine alters  striatal plasticity inducing a shift of synaptic responses toward long-term depression. Neuropharmacology. 2016 Feb; 101:341-50. doi: 10.1016/j.neuropharm.2015.10.015. Epub 2015 Dec 3. [PubMed:26471421](http://www.ncbi.nlm.nih.gov/pubmed/26471421)
+> 
+> Kotermanski SE, Wood JT, Johnson JW: Memantine binding to a superficial site on NMDA receptors contributes to partial  trapping. J Physiol. 2009 Oct 1;587(Pt 19):4589-604. doi: 10.1113/jphysiol.2009.176297. Epub 2009 Aug 17. [PubMed:19687120] (http://www.ncbi.nlm.nih.gov/pubmed/19687120)
+> 
+> 
+> Cacabelos R, Takeda M, Winblad B: The glutamatergic system and neurodegeneration in dementia: preventive strategies in  Alzheimer's disease. Int J Geriatr Psychiatry. 1999 Jan;14(1):3-47. [PubMed:10029935](http://www.ncbi.nlm.nih.gov/pubmed/10029935)
+> 
+> Rogawski MA, Wenk GL: The neuropharmacological basis for the use of memantine in the treatment of Alzheimer's disease. CNS  Drug Rev. 2003 Fall;9(3):275-308. [PubMed:14530799](http://www.ncbi.nlm.nih.gov/pubmed/14530799)
+> 
+> Robinson DM, Keating GM: Memantine: a review of its use in Alzheimer's disease. Drugs. 2006;66(11):1515-34. [PubMed:16906789](http://www.ncbi.nlm.nih.gov/pubmed/16906789)
+> 
+> Rogawski MA: Low affinity channel blocking (uncompetitive) NMDA receptor antagonists as therapeutic agents--toward an  understanding of their favorable tolerability. Amino Acids. 2000;19(1):133-49. [PubMed:11026482](http://www.ncbi.nlm.nih.gov/pubmed/11026482)
+> 
+> Rammes G, Rupprecht R, Ferrari U, Zieglgansberger W, Parsons CG: The N-methyl-D-aspartate receptor channel blockers memantine, > MRZ 2/579 and other amino-alkyl-cyclohexanes antagonise 5-HT(3) receptor currents in cultured HEK-293 and N1E-115 cell systems > in a non-competitive manner. Neurosci Lett. 2001 Jun 22;306(1-2):81-4. [PubMed:11403963](http://www.ncbi.nlm.nih.gov/pubmed/11403963)
+> 
+> Kishi T, Matsunaga S, Oya K, Nomura I, Ikuta T, Iwata N: Memantine for Alzheimer's Disease: An Updated Systematic Review and Meta-analysis. J Alzheimers Dis. 2017;60(2):401-425. [doi: 10.3233/JAD-170424](http://doi.org/10.3233/JAD-170424). [PubMed:28922160](http://www.ncbi.nlm.nih.gov/pubmed/28922160)
+> 
+> Brianne Kuns; Dona Varghese (2019). StatPearls: Memantine. StatPearls Publishing.
+> 135 million people will live with dementia worldwide by 2050 [Link](https://www.alzheimersresearchuk.org/135-million-people-will-live-with-dementia-worldwide-by-2050/)
+> 
+> Sandoz Monograph: Memantine hydrochloride oral tablets [Link](https://s3-us-west-2.amazonaws.com/drugbank/cite_this/attachments/files/000/004/375/original/Memantine_FCT_PM_English20150916.pdf?1555348927)
+> 
+> Alzheimer's disease international: Global Impact of Dementia 2013 [File](https://s3-us-west-2.amazonaws.com/drugbank/cite_this/attachments/files/000/004/366/original/GlobalImpactDementia2013.pdf?1555345885)
+> 
+> Memantine Product [File](https://s3-us-west-2.amazonaws.com/drugbank/cite_this/attachments/files/000/004/375/original/Memantine_FCT_PM_English20150916.pdf?1555348927)
