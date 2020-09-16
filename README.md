@@ -173,13 +173,13 @@ PharmGKB
 
 **Components:**
 
-		- Glutamate receptor ionotropic, NMDA 1: [Q05586](http://www.uniprot.org/uniprot/Q05586)
-		- Glutamate receptor ionotropic, NMDA 2A: [Q12879](http://www.uniprot.org/uniprot/Q12879)
-		- Glutamate receptor ionotropic, NMDA 2B: [Q13224](http://www.uniprot.org/uniprot/Q13224)
-		- Glutamate receptor ionotropic, NMDA 2C: [Q14957](http://www.uniprot.org/uniprot/Q14957)
-		- Glutamate receptor ionotropic, NMDA 2D: [O15399](http://www.uniprot.org/uniprot/O15399)
-		- Glutamate receptor ionotropic, NMDA 3A: [Q8TCU5](http://www.uniprot.org/uniprot/Q8TCU5)
-		- Glutamate receptor ionotropic, NMDA 3B: [O60391](http://www.uniprot.org/uniprot/O60391)
+	- Glutamate receptor ionotropic, NMDA 1: [Q05586](http://www.uniprot.org/uniprot/Q05586)
+	- Glutamate receptor ionotropic, NMDA 2A: [Q12879](http://www.uniprot.org/uniprot/Q12879)
+	- Glutamate receptor ionotropic, NMDA 2B: [Q13224](http://www.uniprot.org/uniprot/Q13224)
+	- Glutamate receptor ionotropic, NMDA 2C: [Q14957](http://www.uniprot.org/uniprot/Q14957)
+	- Glutamate receptor ionotropic, NMDA 2D: [O15399](http://www.uniprot.org/uniprot/O15399)
+	- Glutamate receptor ionotropic, NMDA 3A: [Q8TCU5](http://www.uniprot.org/uniprot/Q8TCU5)
+	- Glutamate receptor ionotropic, NMDA 3B: [O60391](http://www.uniprot.org/uniprot/O60391)
 
 6. GABA(A) Receptor (Protein Group)
 	- Curator comments
