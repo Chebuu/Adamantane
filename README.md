@@ -11,7 +11,7 @@ $ make
 # About
 Retrospective study of adamantane derivatives as neuroprotectants post-CVA.
 
-![Adamantane [PubChem CID: 9238]](https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=9238&t=s)
+![Adamantane [PubChem CID: 9238]](https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=9238)
 
 ## Central NMDA Receptor Physiology
 mGluR5-Ca2+ apoptosis					
@@ -26,11 +26,12 @@ Hippocampal long-tem potentiation
 </p>
 
 # Memantine
+![Memantine](https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=4054)
 
 - [FDA](https://s3-us-west-2.amazonaws.com/drugbank/fda_labels/DB01043.pdf?1555341575)
 - [MSDS](https://s3-us-west-2.amazonaws.com/drugbank/msds/DB01043.pdf?1265922738)
 - [Drugbank ID: DB01043](https://www.drugbank.ca/drugs/DB01043)
-- [PubChem CID: 4054](https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=4054&t=s)
+- [PubChem CID: 4054](https://pubchem.ncbi.nlm.nih.gov/compound/181458)
 
 ## Memantine Pharmacodynamics
 
