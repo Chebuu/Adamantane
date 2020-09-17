@@ -13,8 +13,7 @@ WITH thromb AS (
         cev.* 
     FROM chartevents cev
     INNER JOIN 
-    WHERE cev.itemid IN get_itemids('thromb')
-)
+    WHERE cev.itemid IN get_itemids('lytic')
 
 SELECT 
      cht.subject_id

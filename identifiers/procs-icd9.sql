@@ -1,0 +1,3 @@
+-- D_ICD_PROCEDURES
+-- ICD9-CODE    LONG_TITLE
+-- "0011"	        "Infusion of drotrecogin alfa (activated)"

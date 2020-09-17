@@ -16,7 +16,6 @@ BEGIN
     RETURN _ditems
 END $$ LANGUAGE plpgsql;
 
-
 -- # Drugbank::Memantine::Enzymes
 -- Cytochrome P450 2B6
 -- https://www.drugbank.ca/polypeptides/P20813

@@ -329,3 +329,6 @@ PharmGKB
 > Alzheimer's disease international: Global Impact of Dementia 2013 [File](https://s3-us-west-2.amazonaws.com/drugbank/cite_this/attachments/files/000/004/366/original/GlobalImpactDementia2013.pdf?1555345885)
 > 
 > Memantine Product [File](https://s3-us-west-2.amazonaws.com/drugbank/cite_this/attachments/files/000/004/375/original/Memantine_FCT_PM_English20150916.pdf?1555348927)
+>
+### MIMIC-III SchemaSpy
+![](https://mit-lcp.github.io/mimic-schema-spy/diagrams/summary/relationships.real.compact.png)
